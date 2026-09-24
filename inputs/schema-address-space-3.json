@@ -1,0 +1,97 @@
+{
+  "actions": [
+    "observe:asid0",
+    "observe:asid1"
+  ],
+  "machines": [
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "kind": "public_schema_toy",
+    "passage": "Section 4.4.1: ASID labels",
+    "provenance": "Only the vocabulary is source-derived. All states, outputs and transitions are authored mathematical fixtures; no traces.",
+    "schema": "address-space",
+    "semantic_archetype": "destructive threshold, zero reset",
+    "source": "https://people.csail.mit.edu/mengjia/data/2026.SP.fractal.pdf",
+    "variant": 3
+  },
+  "name": "schema-address-space-3",
+  "observations": [
+    0,
+    1
+  ]
+}

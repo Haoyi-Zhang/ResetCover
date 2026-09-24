@@ -1,0 +1,150 @@
+{
+  "clean_extraction": true,
+  "code_changed_after_run": false,
+  "commands": [
+    {
+      "command": "python3 reproduce.py --output reproduced --check",
+      "exit_code": 0,
+      "outer_peak_rss_kib": 102184,
+      "outer_wall_seconds_including_process_start": 1.07,
+      "runner_metrics": {
+        "address_space_limit_bytes": 2147483648,
+        "cpu_seconds": 0.41906611699999996,
+        "peak_rss_kib": 102184,
+        "producer_games_enumerated_this_run": 2039,
+        "producer_nodes_enumerated_this_run": 16086,
+        "retained_main_packets_verified_without_reenumeration": true,
+        "total_output_bytes_before_metrics": 745898,
+        "wall_limit_seconds": 180,
+        "wall_seconds": 0.4230123709999134
+      },
+      "scientific_summary": {
+        "antichains": {
+          "antichain_comparisons": 36,
+          "families": 9,
+          "independent_tree_supports": 815,
+          "join_products": 56765
+        },
+        "binary": {
+          "budgets_in_cross_check": [
+            1,
+            2,
+            "unlimited"
+          ],
+          "cross_budget_support_comparisons": 18,
+          "families": 4,
+          "nodes": 5990,
+          "obligations": 26837,
+          "zero_reset_support_comparisons": 188
+        },
+        "cap_controls": [
+          {
+            "bound": "node",
+            "nodes": 1,
+            "reason": "node",
+            "status": "unknown",
+            "transition_obligations": 1
+          },
+          {
+            "bound": "obligation",
+            "nodes": 2,
+            "reason": "obligation",
+            "status": "unknown",
+            "transition_obligations": 2
+          },
+          {
+            "bound": "depth",
+            "nodes": 25,
+            "reason": "depth",
+            "status": "unknown",
+            "transition_obligations": 105
+          }
+        ],
+        "differential": {
+          "families": 12,
+          "mismatches": 0,
+          "oracle_positions": 1022,
+          "oracle_transitions": 1503,
+          "solver_nodes": 1022,
+          "solver_obligations": 3405,
+          "support_budget_comparisons": 156
+        },
+        "exact_game_solves": 2084,
+        "failures": 0,
+        "graphs": {
+          "all_subset_comparisons": 4201,
+          "exact_game_spot_checks": 284,
+          "graphs": 71,
+          "nodes": 3425,
+          "obligations": 27613
+        },
+        "hypergraphs": {
+          "all_support_comparisons": 252,
+          "exact_game_spot_checks": 12,
+          "families": 4,
+          "maximum_hypergraph_rank": 3,
+          "maximum_pairs_per_test": 3,
+          "nodes": 57,
+          "obligations": 290
+        },
+        "independent_oracle_positions": 1022,
+        "independent_oracle_transitions": 1503,
+        "input_validation": {
+          "conservative_obligation_charge": 480,
+          "malformed_cases": 12,
+          "rejected_by_checker": 12,
+          "rejected_by_producer": 12
+        },
+        "main": {
+          "ambiguous": 24,
+          "identified": 24,
+          "instances": 48,
+          "nodes": 2291,
+          "obligations": 20818
+        },
+        "mutations": {
+          "conservative_obligation_charge": 4320,
+          "rejected": 36,
+          "tested": 36
+        },
+        "total_solver_belief_nodes": 18377,
+        "transition_and_certificate_obligations_charged": 100183,
+        "unary": {
+          "ambiguous": 370,
+          "families": 680,
+          "game_comparisons": 1360,
+          "identified": 310,
+          "nodes": 5564,
+          "obligations": 16312
+        },
+        "worker_count": 1
+      },
+      "stderr": "",
+      "working_directory": "standalone repository root from a clean ZIP extraction"
+    },
+    {
+      "accepted": {
+        "rank_trap": {
+          "depth": 3,
+          "obligations": 105,
+          "status": "identified"
+        },
+        "replay": {
+          "obligations": 9,
+          "worst_depth": 3
+        }
+      },
+      "command": "python3 check_certificate.py inputs/graph-triangle-budget-1.json results/certificates/graph-triangle-budget-1.json",
+      "exit_code": 0,
+      "outer_peak_rss_kib": 92712,
+      "outer_wall_seconds_including_process_start": 0.65,
+      "stderr": "",
+      "working_directory": "same clean standalone repository extraction"
+    }
+  ],
+  "comparison_scope": "11 deterministic root JSON/CSV outputs plus 48 certificate packets; timing, resource, clean-reproduction, campaign-accounting, and run-status records excluded",
+  "documentation_only_changes_after_run": "campaign accounting, clean-reproduction record, current-state snapshot, self-audit, and delivery packaging",
+  "network_used": false,
+  "scientific_files_equal": 59,
+  "status": "passed"
+}

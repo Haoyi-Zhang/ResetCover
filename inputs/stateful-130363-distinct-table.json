@@ -1,0 +1,159 @@
+{
+  "actions": [
+    "a",
+    "b"
+  ],
+  "machines": [
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "distribution": "independent uniform output and next-state cells",
+    "duplicate_control": false,
+    "kind": "seeded_stateful",
+    "seed": 130363
+  },
+  "name": "stateful-130363-distinct-table",
+  "observations": [
+    0,
+    1
+  ]
+}

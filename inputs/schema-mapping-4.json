@@ -1,0 +1,97 @@
+{
+  "actions": [
+    "observe:alias0",
+    "observe:alias1"
+  ],
+  "machines": [
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "kind": "public_schema_toy",
+    "passage": "Sections 5.2 and 5.4.3: mapping labels",
+    "provenance": "Only the vocabulary is source-derived. All states, outputs and transitions are authored mathematical fixtures; no traces.",
+    "schema": "mapping",
+    "semantic_archetype": "destructive threshold, one reset",
+    "source": "https://people.csail.mit.edu/mengjia/data/2026.SP.fractal.pdf",
+    "variant": 4
+  },
+  "name": "schema-mapping-4",
+  "observations": [
+    0,
+    1
+  ]
+}

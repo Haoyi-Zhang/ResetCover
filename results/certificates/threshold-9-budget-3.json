@@ -1,0 +1,4020 @@
+{
+  "game": {
+    "kind": "rank_trap",
+    "resets": 3,
+    "root": 0,
+    "rows": [
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 3,
+        "rank": 7
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "budget": 3,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 3,
+        "rank": 6
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "budget": 3,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 1
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 3
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 1,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 3
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 3
+      },
+      {
+        "action": 1,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 3
+      },
+      {
+        "action": 2,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": 7,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "budget": 2,
+        "rank": 1
+      },
+      {
+        "action": 3,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 2,
+        "rank": 5
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": 1,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 4
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 2
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "budget": 2,
+        "rank": 0
+      },
+      {
+        "action": 7,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 1,
+        "belief": [
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": 1,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": 2,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 0,
+        "belief": [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": 2,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": 2,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": 3,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 3,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": 3,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": 5,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 5,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": 5,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": 3
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "budget": 1,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 8,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 2
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "budget": 1,
+        "rank": 0
+      },
+      {
+        "action": 7,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": 1,
+        "belief": [
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 2,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 3,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 4,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 5,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": 6,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "budget": 0,
+        "rank": 1
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": null
+      },
+      {
+        "action": null,
+        "belief": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "budget": 0,
+        "rank": 0
+      }
+    ],
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "strategy": {
+    "nodes": [
+      {
+        "action": 0,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "node": 0
+      },
+      {
+        "hypothesis": 0,
+        "node": 1
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            18
+          ]
+        ],
+        "node": 2
+      },
+      {
+        "action": 4,
+        "edges": [
+          [
+            0,
+            52
+          ],
+          [
+            1,
+            41
+          ]
+        ],
+        "node": 18
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            82
+          ]
+        ],
+        "node": 41
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            110
+          ]
+        ],
+        "node": 52
+      },
+      {
+        "action": 6,
+        "edges": [
+          [
+            0,
+            159
+          ],
+          [
+            1,
+            104
+          ]
+        ],
+        "node": 82
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            169
+          ]
+        ],
+        "node": 104
+      },
+      {
+        "action": 2,
+        "edges": [
+          [
+            0,
+            115
+          ],
+          [
+            1,
+            141
+          ]
+        ],
+        "node": 110
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            187
+          ]
+        ],
+        "node": 115
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            211
+          ]
+        ],
+        "node": 141
+      },
+      {
+        "action": 8,
+        "edges": [
+          [
+            0,
+            227
+          ]
+        ],
+        "node": 159
+      },
+      {
+        "action": 7,
+        "edges": [
+          [
+            0,
+            235
+          ],
+          [
+            1,
+            186
+          ]
+        ],
+        "node": 169
+      },
+      {
+        "hypothesis": 8,
+        "node": 186
+      },
+      {
+        "action": 1,
+        "edges": [
+          [
+            0,
+            193
+          ],
+          [
+            1,
+            205
+          ]
+        ],
+        "node": 187
+      },
+      {
+        "hypothesis": 1,
+        "node": 193
+      },
+      {
+        "hypothesis": 2,
+        "node": 205
+      },
+      {
+        "action": 3,
+        "edges": [
+          [
+            0,
+            215
+          ],
+          [
+            1,
+            223
+          ]
+        ],
+        "node": 211
+      },
+      {
+        "hypothesis": 3,
+        "node": 215
+      },
+      {
+        "hypothesis": 4,
+        "node": 223
+      },
+      {
+        "action": 5,
+        "edges": [
+          [
+            0,
+            229
+          ],
+          [
+            1,
+            233
+          ]
+        ],
+        "node": 227
+      },
+      {
+        "hypothesis": 5,
+        "node": 229
+      },
+      {
+        "hypothesis": 6,
+        "node": 233
+      },
+      {
+        "hypothesis": 7,
+        "node": 235
+      }
+    ],
+    "root": 0
+  },
+  "unlimited_pair": null
+}

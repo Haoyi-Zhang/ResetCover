@@ -1,0 +1,290 @@
+[
+  {
+    "file": "schema-privilege-1.json",
+    "group": "schema",
+    "name": "schema-privilege-1",
+    "resets": null
+  },
+  {
+    "file": "schema-privilege-2.json",
+    "group": "schema",
+    "name": "schema-privilege-2",
+    "resets": null
+  },
+  {
+    "file": "schema-privilege-3.json",
+    "group": "schema",
+    "name": "schema-privilege-3",
+    "resets": 0
+  },
+  {
+    "file": "schema-privilege-4.json",
+    "group": "schema",
+    "name": "schema-privilege-4",
+    "resets": 1
+  },
+  {
+    "file": "schema-address-space-1.json",
+    "group": "schema",
+    "name": "schema-address-space-1",
+    "resets": null
+  },
+  {
+    "file": "schema-address-space-2.json",
+    "group": "schema",
+    "name": "schema-address-space-2",
+    "resets": null
+  },
+  {
+    "file": "schema-address-space-3.json",
+    "group": "schema",
+    "name": "schema-address-space-3",
+    "resets": 0
+  },
+  {
+    "file": "schema-address-space-4.json",
+    "group": "schema",
+    "name": "schema-address-space-4",
+    "resets": 1
+  },
+  {
+    "file": "schema-mapping-1.json",
+    "group": "schema",
+    "name": "schema-mapping-1",
+    "resets": null
+  },
+  {
+    "file": "schema-mapping-2.json",
+    "group": "schema",
+    "name": "schema-mapping-2",
+    "resets": null
+  },
+  {
+    "file": "schema-mapping-3.json",
+    "group": "schema",
+    "name": "schema-mapping-3",
+    "resets": 0
+  },
+  {
+    "file": "schema-mapping-4.json",
+    "group": "schema",
+    "name": "schema-mapping-4",
+    "resets": 1
+  },
+  {
+    "file": "schema-schedule-1.json",
+    "group": "schema",
+    "name": "schema-schedule-1",
+    "resets": null
+  },
+  {
+    "file": "schema-schedule-2.json",
+    "group": "schema",
+    "name": "schema-schedule-2",
+    "resets": null
+  },
+  {
+    "file": "schema-schedule-3.json",
+    "group": "schema",
+    "name": "schema-schedule-3",
+    "resets": 0
+  },
+  {
+    "file": "schema-schedule-4.json",
+    "group": "schema",
+    "name": "schema-schedule-4",
+    "resets": 1
+  },
+  {
+    "file": "graph-path-three-budget-0.json",
+    "group": "generated",
+    "name": "graph-path-three-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-path-three-budget-1.json",
+    "group": "generated",
+    "name": "graph-path-three-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-path-three-binary-budget-0.json",
+    "group": "generated",
+    "name": "graph-path-three-binary-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-path-three-binary-budget-1.json",
+    "group": "generated",
+    "name": "graph-path-three-binary-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-triangle-budget-0.json",
+    "group": "generated",
+    "name": "graph-triangle-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-triangle-budget-1.json",
+    "group": "generated",
+    "name": "graph-triangle-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-triangle-binary-budget-0.json",
+    "group": "generated",
+    "name": "graph-triangle-binary-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-triangle-binary-budget-1.json",
+    "group": "generated",
+    "name": "graph-triangle-binary-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-path-four-budget-0.json",
+    "group": "generated",
+    "name": "graph-path-four-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-path-four-budget-1.json",
+    "group": "generated",
+    "name": "graph-path-four-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-path-four-binary-budget-0.json",
+    "group": "generated",
+    "name": "graph-path-four-binary-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-path-four-binary-budget-1.json",
+    "group": "generated",
+    "name": "graph-path-four-binary-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-complete-four-budget-0.json",
+    "group": "generated",
+    "name": "graph-complete-four-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-complete-four-budget-1.json",
+    "group": "generated",
+    "name": "graph-complete-four-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "graph-complete-four-binary-budget-0.json",
+    "group": "generated",
+    "name": "graph-complete-four-binary-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "graph-complete-four-binary-budget-1.json",
+    "group": "generated",
+    "name": "graph-complete-four-binary-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "threshold-3-budget-0.json",
+    "group": "generated",
+    "name": "threshold-3-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "threshold-3-budget-1.json",
+    "group": "generated",
+    "name": "threshold-3-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "threshold-5-budget-1.json",
+    "group": "generated",
+    "name": "threshold-5-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "threshold-5-budget-2.json",
+    "group": "generated",
+    "name": "threshold-5-budget-2",
+    "resets": 2
+  },
+  {
+    "file": "threshold-9-budget-2.json",
+    "group": "generated",
+    "name": "threshold-9-budget-2",
+    "resets": 2
+  },
+  {
+    "file": "threshold-9-budget-3.json",
+    "group": "generated",
+    "name": "threshold-9-budget-3",
+    "resets": 3
+  },
+  {
+    "file": "private-pairs-2-budget-0.json",
+    "group": "generated",
+    "name": "private-pairs-2-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "private-pairs-2-budget-1.json",
+    "group": "generated",
+    "name": "private-pairs-2-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "private-pairs-3-budget-0.json",
+    "group": "generated",
+    "name": "private-pairs-3-budget-0",
+    "resets": 0
+  },
+  {
+    "file": "private-pairs-3-budget-1.json",
+    "group": "generated",
+    "name": "private-pairs-3-budget-1",
+    "resets": 1
+  },
+  {
+    "file": "stateful-104729-distinct-table.json",
+    "group": "generated",
+    "name": "stateful-104729-distinct-table",
+    "resets": null
+  },
+  {
+    "file": "stateful-104729-duplicate.json",
+    "group": "generated",
+    "name": "stateful-104729-duplicate",
+    "resets": null
+  },
+  {
+    "file": "stateful-130363-distinct-table.json",
+    "group": "generated",
+    "name": "stateful-130363-distinct-table",
+    "resets": null
+  },
+  {
+    "file": "stateful-130363-duplicate.json",
+    "group": "generated",
+    "name": "stateful-130363-duplicate",
+    "resets": null
+  },
+  {
+    "file": "stateful-155921-distinct-table.json",
+    "group": "generated",
+    "name": "stateful-155921-distinct-table",
+    "resets": null
+  },
+  {
+    "file": "stateful-155921-duplicate.json",
+    "group": "generated",
+    "name": "stateful-155921-duplicate",
+    "resets": null
+  }
+]
