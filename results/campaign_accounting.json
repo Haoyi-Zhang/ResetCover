@@ -1,54 +1,62 @@
 {
-  "purpose": "Conservative cumulative scientific resource account, not a software/version/checksum manifest",
-  "worker_count": 1,
+  "accounting_cutoff": "Frozen scientific campaign and its original final clean-extraction check, before the 2026-09-25 targeted maintenance validation.",
+  "budget_checks": {
+    "charged_cpu_within_ceiling": true,
+    "nodes_within_ceiling": true,
+    "obligations_within_ceiling": true
+  },
+  "largest_recorded_rss_kib": 102184,
   "limits": {
     "campaign_belief_nodes": 250000,
-    "campaign_transition_certificate_obligations": 2000000,
     "campaign_cpu_seconds": 21600,
-    "per_run_wall_seconds": 180,
-    "peak_rss_budget_bytes": 2684354560
+    "campaign_transition_certificate_obligations": 2000000,
+    "peak_rss_budget_bytes": 2684354560,
+    "per_run_wall_seconds": 180
   },
+  "measured_plus_upper_charged_cpu_seconds": 545.481404786,
+  "no_external_scientific_compute": true,
+  "no_gpu_or_model_service_experiment": true,
+  "peak_rss_caveat": "The early prototype has no retained standalone peak measurement. The largest recorded value is not asserted as an exact whole-campaign maximum.",
   "phases": [
     {
-      "phase": "exploratory triple-collision pilot",
-      "belief_nodes_charged": 11337,
-      "transition_certificate_obligations_charged": 38248,
       "accounting_basis": "measured counters",
+      "belief_nodes_charged": 11337,
+      "phase": "exploratory triple-collision pilot",
       "resources": {
         "cpu_seconds": 0.044104276,
-        "wall_seconds": 0.04412578599999506,
-        "peak_rss_kib": 92716
+        "peak_rss_kib": 92716,
+        "wall_seconds": 0.04412578599999506
       },
-      "scope_note": "71 graph instances; weaker collision gadget, not evidence for the two-pair theorem"
+      "scope_note": "71 graph instances; weaker collision gadget, not evidence for the two-pair theorem",
+      "transition_certificate_obligations_charged": 38248
     },
     {
-      "phase": "early main-suite prototype",
-      "belief_nodes_charged": 5000,
-      "transition_certificate_obligations_charged": 300000,
       "accounting_basis": "conservative charge, not exact measurement",
+      "belief_nodes_charged": 5000,
+      "phase": "early main-suite prototype",
       "resources": {
         "cpu_seconds_upper_charge": 180,
         "peak_rss_kib": null
       },
-      "scope_note": "48 small families; some pair-check counters and a standalone RSS record were not retained. This overcharge is not reported as observed work or a measured peak. Actual produced games were below the retained full-suite dimensions."
+      "scope_note": "48 small families; some pair-check counters and a standalone RSS record were not retained. This overcharge is not reported as observed work or a measured peak. Actual produced games were below the retained full-suite dimensions.",
+      "transition_certificate_obligations_charged": 300000
     },
     {
-      "phase": "matching-collision and serialization pilot",
-      "belief_nodes_charged": 14908,
-      "transition_certificate_obligations_charged": 71343,
       "accounting_basis": "measured counters",
+      "belief_nodes_charged": 14908,
+      "phase": "matching-collision and serialization pilot",
       "resources": {
         "cpu_seconds": 0.236902795,
-        "wall_seconds": 0.2374089360000653,
-        "peak_rss_kib": 93868
+        "peak_rss_kib": 93868,
+        "wall_seconds": 0.2374089360000653
       },
-      "scope_note": "71 graph instances; final two-disjoint-pair restriction"
+      "scope_note": "71 graph instances; final two-disjoint-pair restriction",
+      "transition_certificate_obligations_charged": 71343
     },
     {
-      "phase": "complete development suite",
-      "belief_nodes_charged": 35554,
-      "transition_certificate_obligations_charged": 214197,
       "accounting_basis": "exact enumerated nodes; obligations include declared conservative mutation charges",
+      "belief_nodes_charged": 35554,
+      "phase": "complete development suite",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.8262942229999999,
@@ -57,13 +65,13 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.8296225080000568
       },
-      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted"
+      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted",
+      "transition_certificate_obligations_charged": 214197
     },
     {
-      "phase": "retained suite",
-      "belief_nodes_charged": 35554,
-      "transition_certificate_obligations_charged": 214197,
       "accounting_basis": "exact enumerated nodes; obligations include declared conservative mutation charges",
+      "belief_nodes_charged": 35554,
+      "phase": "retained suite",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.813006035,
@@ -72,13 +80,13 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.8135334900000544
       },
-      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted"
+      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted",
+      "transition_certificate_obligations_charged": 214197
     },
     {
-      "phase": "clean-extraction reproduction",
-      "belief_nodes_charged": 35554,
-      "transition_certificate_obligations_charged": 214197,
       "accounting_basis": "exact enumerated nodes; obligations include declared conservative mutation charges",
+      "belief_nodes_charged": 35554,
+      "phase": "clean-extraction reproduction",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.885899741,
@@ -87,24 +95,24 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.8881357929999467
       },
-      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted"
+      "scope_note": "5868 complete games and three intentional unknown cap controls; 56765 antichain join products separately counted",
+      "transition_certificate_obligations_charged": 214197
     },
     {
-      "phase": "standalone certificate CLI check",
-      "belief_nodes_charged": 0,
-      "transition_certificate_obligations_charged": 114,
       "accounting_basis": "exact checker obligation count; conservative CPU charge",
+      "belief_nodes_charged": 0,
+      "phase": "standalone certificate CLI check",
       "resources": {
-        "wall_seconds_including_process_start": 0.5818269170003987,
-        "cpu_seconds_upper_charge": 180
+        "cpu_seconds_upper_charge": 180,
+        "wall_seconds_including_process_start": 0.5818269170003987
       },
-      "scope_note": "No game enumeration; 105 all-actions rank obligations plus nine per-identity replay steps. CPU was not separately retained for this command."
+      "scope_note": "No game enumeration; 105 all-actions rank obligations plus nine per-identity replay steps. CPU was not separately retained for this command.",
+      "transition_certificate_obligations_charged": 114
     },
     {
-      "phase": "post-bibliography final in-place reproduction",
-      "belief_nodes_charged": 35554,
-      "transition_certificate_obligations_charged": 214197,
       "accounting_basis": "exact enumerated nodes; obligations include declared conservative mutation charges",
+      "belief_nodes_charged": 35554,
+      "phase": "post-bibliography final in-place reproduction",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.830999867,
@@ -113,13 +121,13 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.8347952179999538
       },
-      "scope_note": "Final in-place recheck after manuscript, proof-documentation, ledger and bibliography updates; no executable/input change; 56 scientific outputs remained byte-identical."
+      "scope_note": "Final in-place recheck after manuscript, proof-documentation, ledger and bibliography updates; no executable/input change; 56 scientific outputs remained byte-identical.",
+      "transition_certificate_obligations_charged": 214197
     },
     {
-      "phase": "expanded differential/hypergraph development suite",
-      "belief_nodes_charged": 41628,
-      "transition_certificate_obligations_charged": 248429,
       "accounting_basis": "exact scientific counters from the development output; not retained as the final result set",
+      "belief_nodes_charged": 41628,
+      "phase": "expanded differential/hypergraph development suite",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.9667632030000001,
@@ -127,13 +135,13 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.9707596949999697
       },
-      "scope_note": "Development run used to add the independent complete-depth oracle, rank-three hypergraph cases, cross-budget binary checks, expanded mutations, and malformed-input controls."
+      "scope_note": "Development run used to add the independent complete-depth oracle, rank-three hypergraph cases, cross-budget binary checks, expanded mutations, and malformed-input controls.",
+      "transition_certificate_obligations_charged": 248429
     },
     {
-      "phase": "final retained generation with expanded oracles",
-      "belief_nodes_charged": 18377,
-      "transition_certificate_obligations_charged": 100183,
       "accounting_basis": "exact retained summary; obligations include declared conservative mutation and malformed-input charges",
+      "belief_nodes_charged": 18377,
+      "phase": "final retained generation with expanded oracles",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.458368529,
@@ -142,51 +150,50 @@
         "wall_limit_seconds": 180,
         "wall_seconds": 0.45942494700000225
       },
-      "scope_note": "2,084 exact games, 1,022 independent oracle positions, 1,503 oracle transitions, and three intentional unknown cap controls."
+      "scope_note": "2,084 exact games, 1,022 independent oracle positions, 1,503 oracle transitions, and three intentional unknown cap controls.",
+      "transition_certificate_obligations_charged": 100183
     },
     {
-      "phase": "final clean-extraction byte-comparison reproduction",
-      "belief_nodes_charged": 16086,
-      "transition_certificate_obligations_charged": 100183,
       "accounting_basis": "actual producer nodes enumerated during --check; retained main packets were independently checked without re-enumerating their 2,291 rows; full logical obligation charge retained",
+      "belief_nodes_charged": 16086,
+      "phase": "final clean-extraction byte-comparison reproduction",
       "resources": {
         "address_space_limit_bytes": 2147483648,
         "cpu_seconds": 0.41906611699999996,
+        "outer_process_wall_seconds": 1.07,
         "peak_rss_kib": 102184,
         "total_output_bytes_before_metrics": 745898,
         "wall_limit_seconds": 180,
-        "wall_seconds": 0.4230123709999134,
-        "outer_process_wall_seconds": 1.07
+        "wall_seconds": 0.4230123709999134
       },
-      "scope_note": "59 deterministic scientific files matched byte-for-byte, including all 48 certificate packets; producer enumerated 2,039 games after reusing the checked main packets."
+      "scope_note": "59 deterministic scientific files matched byte-for-byte, including all 48 certificate packets; producer enumerated 2,039 games after reusing the checked main packets.",
+      "transition_certificate_obligations_charged": 100183
     },
     {
-      "phase": "final standalone certificate CLI check",
-      "belief_nodes_charged": 0,
-      "transition_certificate_obligations_charged": 114,
       "accounting_basis": "105 rank/trap plus nine replay obligations; CPU conservatively charged at the 180-second command ceiling because separate CPU time was not retained",
+      "belief_nodes_charged": 0,
+      "phase": "final standalone certificate CLI check",
       "resources": {
-        "wall_seconds_including_process_start": 0.65,
+        "cpu_seconds_upper_charge": 180,
         "peak_rss_kib": 92712,
-        "cpu_seconds_upper_charge": 180
+        "wall_seconds_including_process_start": 0.65
       },
-      "scope_note": "Direct checker accepted exact depth three; no game was enumerated."
+      "scope_note": "Direct checker accepted exact depth three; no game was enumerated.",
+      "transition_certificate_obligations_charged": 114
     }
   ],
+  "post_lock_maintenance_validation": {
+    "included_in_totals": false,
+    "reason": "This user-requested regression run checked a repaired software entry contract and revalidated unchanged retained outputs after the scientific campaign was frozen; its exact runtime and enumerated positions are recorded separately rather than silently folded into the historical campaign totals.",
+    "record": "results/runtime_reproduction.json",
+    "retained_scientific_outputs_changed": false
+  },
+  "purpose": "Conservative cumulative scientific resource account, not a software/version/checksum manifest",
+  "remaining_belief_node_allowance": 448,
+  "remaining_cpu_second_allowance": 21054.518595214,
+  "remaining_obligation_allowance": 284598,
+  "total_antichain_join_products_recorded": 397355,
   "total_belief_nodes_charged": 249552,
   "total_transition_certificate_obligations_charged": 1715402,
-  "total_antichain_join_products_recorded": 397355,
-  "measured_plus_upper_charged_cpu_seconds": 545.481404786,
-  "largest_recorded_rss_kib": 102184,
-  "peak_rss_caveat": "The early prototype has no retained standalone peak measurement. The largest recorded value is not asserted as an exact whole-campaign maximum.",
-  "remaining_belief_node_allowance": 448,
-  "remaining_obligation_allowance": 284598,
-  "remaining_cpu_second_allowance": 21054.518595214,
-  "budget_checks": {
-    "nodes_within_ceiling": true,
-    "obligations_within_ceiling": true,
-    "charged_cpu_within_ceiling": true
-  },
-  "no_external_scientific_compute": true,
-  "no_gpu_or_model_service_experiment": true
+  "worker_count": 1
 }

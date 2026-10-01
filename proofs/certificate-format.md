@@ -14,6 +14,10 @@ Ordinary successors are reconstructed by grouping each surviving identity accord
 
 For finite positive rank k, the chosen action must have only finite successors of rank at most k−1, and every action must have some successor with rank at least k−1, treating losing rank as infinity. A losing row must have a losing successor for every action. Singleton and losing rows have no chosen strategy action. These local rules prove both the upper and lower bound; checking only the selected action would not prove optimality.
 
+## Generic checking versus retained-main binding
+
+The certificate checker intentionally accepts any legal nonempty support and any legal reset budget encoded in a packet. This is needed for theorem fixtures and strict-subset checks. The retained 48-family main-suite entry has a stronger contract in `reproduce.py`: immediately after reading a retained packet and before constructing a result row, it requires the packet budget to equal the catalog budget and its support set to equal all input-hypothesis indices. A same-transition-table full-support packet from another budget and a valid strict-subset packet are used as replacement guards; the generic checker accepts their internal certificates, while the main-suite binding rejects each replacement and reports the expected and actual budget and support.
+
 ## Strategy and pair witnesses
 
 A successful packet also has a strategy DAG whose nodes reference game-row indices. Internal nodes supply an action and output/child edges; terminal nodes name a hypothesis. Replay follows the table separately for every fixed identity, checks reset consumption, rejects cycles and missing observed branches, checks correct terminal identity, and requires the worst replay depth to equal the checked root rank. The rank certificate must be checked first. `replay` is not a standalone structural validator for an arbitrary unvalidated game object.

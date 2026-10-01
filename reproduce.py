@@ -13,6 +13,7 @@ import argparse
 import csv
 import json
 import os
+import platform
 from copy import deepcopy
 from itertools import combinations
 from pathlib import Path
@@ -115,6 +116,178 @@ def scientific_files(directory):
     return result
 
 
+class RetainedPacketBindingError(ValueError):
+    """A valid generic certificate is not bound to the catalog entry using it."""
+
+
+def _budget_text(value):
+    return "unlimited" if value is None else str(value)
+
+
+def bind_retained_main_packet(name, family, catalog_resets, packet):
+    """Bind a retained main packet to its catalog budget and full input support.
+
+    ``check_rank`` intentionally remains generic: it can validate any legal
+    nonempty support and any legal budget.  This wrapper enforces the stronger
+    contract of the retained 48-entry main-suite catalog before a result row is
+    constructed from a packet.
+    """
+    game = packet.get("game") if type(packet) is dict else None
+    expected_support = list(range(len(family["machines"])))
+    actual_budget = game.get("resets") if type(game) is dict else "<missing>"
+    actual_support = game.get("support") if type(game) is dict else "<missing>"
+    context = (
+        f"retained main packet {name}: expected budget={_budget_text(catalog_resets)} "
+        f"and support={expected_support}; actual budget={_budget_text(actual_budget)} "
+        f"and support={actual_support}"
+    )
+    budget_matches = (
+        actual_budget is None and catalog_resets is None
+    ) or (
+        type(actual_budget) is int
+        and type(catalog_resets) is int
+        and actual_budget == catalog_resets
+    )
+    if not budget_matches:
+        raise RetainedPacketBindingError("budget binding mismatch; " + context)
+    support_matches = (
+        type(actual_support) is list
+        and len(actual_support) == len(expected_support)
+        and all(type(h) is int for h in actual_support)
+        and set(actual_support) == set(expected_support)
+    )
+    if not support_matches:
+        raise RetainedPacketBindingError("support binding mismatch; " + context)
+    return {
+        "name": name,
+        "catalog_budget": catalog_resets,
+        "certificate_budget": actual_budget,
+        "catalog_support": expected_support,
+        "certificate_support": actual_support,
+    }
+
+
+def _same_transition_table(left, right):
+    return all(left[key] == right[key] for key in ("actions", "observations", "machines"))
+
+
+def _expect_binding_rejection(label, name, family, catalog_resets, packet):
+    expected_support = list(range(len(family["machines"])))
+    game = packet["game"]
+    try:
+        bind_retained_main_packet(name, family, catalog_resets, packet)
+    except RetainedPacketBindingError as exc:
+        record = {
+            "case": label,
+            "target_name": name,
+            "target_budget": catalog_resets,
+            "target_support": expected_support,
+            "replacement_budget": game.get("resets"),
+            "replacement_support": game.get("support"),
+            "outcome": "rejected",
+            "reason": str(exc),
+        }
+        print("ENTRY_BINDING_REJECTION " + json.dumps(record, sort_keys=True))
+        return record
+    raise AssertionError(f"entry binding replacement was accepted: {label}")
+
+
+def run_entry_binding_guards():
+    """Exercise the retained-main entry contract with valid replacement packets."""
+    target_name = "graph-triangle-budget-0"
+    target_family = load(ROOT / "inputs" / f"{target_name}.json")
+    target_budget = 0
+    correct_packet = json.loads(
+        (ROOT / "results" / "certificates" / f"{target_name}.json").read_text()
+    )
+    baseline = bind_retained_main_packet(
+        target_name, target_family, target_budget, correct_packet
+    )
+    check_rank(target_family, correct_packet["game"])
+
+    cross_name = "graph-triangle-budget-1"
+    cross_family = load(ROOT / "inputs" / f"{cross_name}.json")
+    if not _same_transition_table(target_family, cross_family):
+        raise AssertionError("cross-budget replacement does not use the same transition table")
+    cross_packet = json.loads(
+        (ROOT / "results" / "certificates" / f"{cross_name}.json").read_text()
+    )
+    cross_checked = check_rank(target_family, cross_packet["game"])
+    if cross_packet["strategy"] is not None:
+        replay(target_family, cross_packet["game"], cross_packet["strategy"])
+    cross_rejection = _expect_binding_rejection(
+        "same-table-full-support-cross-budget",
+        target_name,
+        target_family,
+        target_budget,
+        cross_packet,
+    )
+
+    strict_support = (0, 1)
+    strict_result = solve(target_family, target_budget, strict_support)
+    if strict_result["status"] == "unknown":
+        raise AssertionError("strict-subset guard unexpectedly hit a solver cap")
+    strict_packet = {
+        "game": strict_result["certificate"],
+        "strategy": strict_result["strategy"],
+        "unlimited_pair": None,
+    }
+    strict_checked = check_rank(target_family, strict_packet["game"])
+    if strict_packet["strategy"] is not None:
+        replay(target_family, strict_packet["game"], strict_packet["strategy"])
+    strict_rejection = _expect_binding_rejection(
+        "same-table-same-budget-strict-subset",
+        target_name,
+        target_family,
+        target_budget,
+        strict_packet,
+    )
+    return {
+        "executed": True,
+        "generic_checker_remains_subset_capable": True,
+        "baseline_binding": baseline,
+        "replacement_cases": [cross_rejection, strict_rejection],
+        "cross_budget_generic_check": cross_checked,
+        "strict_subset_generic_check": strict_checked,
+        "strict_subset_generation": {
+            "status": strict_result["status"],
+            "depth": strict_result["depth"],
+            "nodes": strict_result["nodes"],
+            "transition_obligations": strict_result["transition_obligations"],
+        },
+    }
+
+
+def run_private_pair_one_negative_control():
+    """Check the m=1 private-pair boundary without changing campaign counters."""
+    family = private_pairs(1, "private-pairs-1-negative-control")
+    cases = []
+    for resets in (0, 1, None):
+        result = solve(family, resets)
+        if result["status"] != "ambiguous" or result["depth"] is not None:
+            raise AssertionError(("m=1 private-pair negative control", resets, result))
+        checked = check_rank(family, result["certificate"])
+        if checked["status"] != "ambiguous" or checked["depth"] is not None:
+            raise AssertionError("m=1 private-pair checker disagreement")
+        cases.append({
+            "budget": resets,
+            "status": result["status"],
+            "nodes": result["nodes"],
+            "transition_obligations": result["transition_obligations"],
+            "checker_obligations": checked["obligations"],
+        })
+    record = {
+        "executed": True,
+        "family": family["name"],
+        "hypotheses": len(family["machines"]),
+        "tests": len(family["actions"]),
+        "cases": cases,
+        "outside_retained_2084_game_count": True,
+    }
+    print("PRIVATE_PAIR_M1_NEGATIVE_CONTROL " + json.dumps(record, sort_keys=True))
+    return record
+
+
 def run(out, *, verify_retained_main=False):
     started = time.monotonic()
     cpu = time.process_time()
@@ -128,12 +301,17 @@ def run(out, *, verify_retained_main=False):
     manifest = json.loads((ROOT / "inputs/catalog.json").read_text())
     if len(manifest) != 48:
         raise AssertionError("48 retained families required")
+    entry_binding_guards = run_entry_binding_guards() if verify_retained_main else {"executed": False}
+    private_pair_one_control = run_private_pair_one_negative_control() if verify_retained_main else {"executed": False}
+    retained_bindings_checked = 0
     for item in manifest:
         name = item["name"]
         family = load(ROOT / "inputs" / item["file"])
         resets = item["resets"]
         if verify_retained_main:
             packet = json.loads((ROOT / "results" / "certificates" / f"{name}.json").read_text())
+            bind_retained_main_packet(name, family, resets, packet)
+            retained_bindings_checked += 1
             checked = check_rank(family, packet["game"])
             strategy_obligations = 0
             if packet["strategy"] is not None:
@@ -262,7 +440,7 @@ def run(out, *, verify_retained_main=False):
         "mismatches": 0,
     }
 
-    # Exhaust every nonempty labeled graph on two through four vertices and
+    # Exhaust every labeled graph with at least one edge on two through four vertices and
     # every nonempty hypothesis subset of its matching-collision construction.
     graphs = []
     n0, o0 = meter.nodes, meter.obligations
@@ -610,6 +788,21 @@ def run(out, *, verify_retained_main=False):
         "producer_nodes_enumerated_this_run": meter.actual_producer_nodes,
         "producer_games_enumerated_this_run": meter.actual_producer_solves,
         "retained_main_packets_verified_without_reenumeration": bool(verify_retained_main),
+        "retained_main_packet_bindings_checked": retained_bindings_checked,
+        "entry_binding_guards": entry_binding_guards,
+        "private_pair_m1_negative_control": private_pair_one_control,
+        "software_guard_exact_games_outside_retained_summary": (
+            4 if verify_retained_main else 0
+        ),
+        "runtime": {
+            "python_implementation": platform.python_implementation(),
+            "python_version": platform.python_version(),
+            "platform": platform.platform(),
+            "system": platform.system(),
+            "release": platform.release(),
+            "machine": platform.machine(),
+            "os_name": os.name,
+        },
     }
     dump(out / "resources.json", metrics)
     return semantic, metrics
@@ -660,6 +853,10 @@ def main():
                 "status": "passed",
                 "retained_byte_comparison": args.check,
                 "scientific_files_compared": compared,
+                "retained_main_packet_bindings_checked": metrics["retained_main_packet_bindings_checked"],
+                "entry_binding_guard_cases": len(metrics["entry_binding_guards"].get("replacement_cases", [])),
+                "private_pair_m1_negative_control_cases": len(metrics["private_pair_m1_negative_control"].get("cases", [])),
+                "runtime": metrics["runtime"],
             },
         )
         print(json.dumps({"status": "passed", "scientific": scientific, "measured": metrics}, indent=2))
