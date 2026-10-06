@@ -1,0 +1,1922 @@
+[
+  {
+    "expected_depth": null,
+    "oracle_positions": 1,
+    "oracle_transitions": 1,
+    "reset_budget": 0,
+    "seed": 2026091700,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 3,
+    "reset_budget": 1,
+    "seed": 2026091700,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 1,
+    "oracle_transitions": 2,
+    "reset_budget": null,
+    "seed": 2026091700,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 8,
+    "reset_budget": 1,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091701,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 5,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 11,
+    "oracle_transitions": 11,
+    "reset_budget": 1,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 6,
+    "oracle_transitions": 8,
+    "reset_budget": null,
+    "seed": 2026091701,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 8,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 1,
+    "oracle_transitions": 1,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 3,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 1,
+    "oracle_transitions": 2,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 8,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 5,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 11,
+    "oracle_transitions": 11,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 6,
+    "oracle_transitions": 8,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 5,
+    "oracle_transitions": 5,
+    "reset_budget": 0,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 11,
+    "oracle_transitions": 14,
+    "reset_budget": 1,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 6,
+    "oracle_transitions": 10,
+    "reset_budget": null,
+    "seed": 2026091702,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091703,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 1,
+    "seed": 2026091703,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091703,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 10,
+    "reset_budget": 0,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 16,
+    "oracle_transitions": 23,
+    "reset_budget": 1,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 13,
+    "reset_budget": null,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 4,
+    "oracle_transitions": 10,
+    "reset_budget": 1,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 6,
+    "reset_budget": null,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 10,
+    "reset_budget": 0,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 16,
+    "oracle_transitions": 23,
+    "reset_budget": 1,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 13,
+    "reset_budget": null,
+    "seed": 2026091704,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 8,
+    "oracle_transitions": 14,
+    "reset_budget": 0,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 16,
+    "oracle_transitions": 33,
+    "reset_budget": 1,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 8,
+    "oracle_transitions": 19,
+    "reset_budget": null,
+    "seed": 2026091704,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 5,
+    "oracle_transitions": 7,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 10,
+    "oracle_transitions": 17,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 5,
+    "oracle_transitions": 10,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 8,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 12,
+    "oracle_transitions": 19,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 11,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 7,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 10,
+    "oracle_transitions": 16,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 9,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 4,
+    "oracle_transitions": 6,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 14,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 4,
+    "oracle_transitions": 8,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 10,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 1,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 10,
+    "oracle_transitions": 19,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 22,
+    "oracle_transitions": 48,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 12,
+    "oracle_transitions": 30,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 11,
+    "oracle_transitions": 22,
+    "reset_budget": 0,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 27,
+    "oracle_transitions": 61,
+    "reset_budget": 1,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 16,
+    "oracle_transitions": 43,
+    "reset_budget": null,
+    "seed": 2026091705,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091706,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 4,
+    "oracle_transitions": 6,
+    "reset_budget": 1,
+    "seed": 2026091706,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091706,
+    "solver_depth": null,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 4,
+    "oracle_transitions": 6,
+    "reset_budget": 1,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 2,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091707,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 7,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 4,
+    "oracle_transitions": 7,
+    "reset_budget": null,
+    "seed": 2026091707,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 8,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 6,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 3,
+    "oracle_transitions": 6,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 2,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 5,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 8,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 5,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 11,
+    "oracle_transitions": 11,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 6,
+    "oracle_transitions": 8,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 5,
+    "oracle_transitions": 5,
+    "reset_budget": 0,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 13,
+    "oracle_transitions": 16,
+    "reset_budget": 1,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": null,
+    "oracle_positions": 8,
+    "oracle_transitions": 14,
+    "reset_budget": null,
+    "seed": 2026091708,
+    "solver_depth": null,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091709,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091709,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091709,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 1,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 4,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 8,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 4,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 9,
+    "reset_budget": 0,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 12,
+    "oracle_transitions": 21,
+    "reset_budget": 1,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 12,
+    "reset_budget": null,
+    "seed": 2026091710,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 13,
+    "reset_budget": 0,
+    "seed": 2026091710,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 17,
+    "oracle_transitions": 33,
+    "reset_budget": 1,
+    "seed": 2026091710,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 9,
+    "oracle_transitions": 21,
+    "reset_budget": null,
+    "seed": 2026091710,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 4,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 10,
+    "oracle_transitions": 9,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 5,
+    "oracle_transitions": 5,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      1
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 12,
+    "oracle_transitions": 16,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 9,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 9,
+    "oracle_transitions": 14,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 18,
+    "oracle_transitions": 34,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 9,
+    "oracle_transitions": 20,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      0,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 3,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 6,
+    "oracle_transitions": 7,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 1,
+    "oracle_positions": 3,
+    "oracle_transitions": 4,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 1,
+    "support": [
+      1,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 6,
+    "oracle_transitions": 6,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 12,
+    "oracle_transitions": 14,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 6,
+    "oracle_transitions": 8,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 8,
+    "oracle_transitions": 11,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 17,
+    "oracle_transitions": 28,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 2,
+    "oracle_positions": 9,
+    "oracle_transitions": 18,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 2,
+    "support": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 17,
+    "oracle_transitions": 29,
+    "reset_budget": 0,
+    "seed": 2026091711,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 36,
+    "oracle_transitions": 73,
+    "reset_budget": 1,
+    "seed": 2026091711,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "expected_depth": 3,
+    "oracle_positions": 19,
+    "oracle_transitions": 46,
+    "reset_budget": null,
+    "seed": 2026091711,
+    "solver_depth": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]

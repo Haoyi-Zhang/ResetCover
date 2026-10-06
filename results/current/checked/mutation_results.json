@@ -1,0 +1,182 @@
+[
+  {
+    "diagnostic": "lower rank",
+    "mutation": "rank too large",
+    "rejected": true
+  },
+  {
+    "diagnostic": "upper rank",
+    "mutation": "rank too small",
+    "rejected": true
+  },
+  {
+    "diagnostic": "terminal rank iff singleton",
+    "mutation": "false singleton root",
+    "rejected": true
+  },
+  {
+    "diagnostic": "ordinary successor omitted",
+    "mutation": "missing reachable successor",
+    "rejected": true
+  },
+  {
+    "diagnostic": "duplicate belief",
+    "mutation": "duplicate belief",
+    "rejected": true
+  },
+  {
+    "diagnostic": "root semantics",
+    "mutation": "root state changed",
+    "rejected": true
+  },
+  {
+    "diagnostic": "duplicate belief",
+    "mutation": "reset layer changed",
+    "rejected": true
+  },
+  {
+    "diagnostic": "rank range",
+    "mutation": "boolean rank",
+    "rejected": true
+  },
+  {
+    "diagnostic": "belief shape",
+    "mutation": "boolean state",
+    "rejected": true
+  },
+  {
+    "diagnostic": "layer range",
+    "mutation": "boolean budget",
+    "rejected": true
+  },
+  {
+    "diagnostic": "action range",
+    "mutation": "boolean action",
+    "rejected": true
+  },
+  {
+    "diagnostic": "root semantics",
+    "mutation": "identity removed",
+    "rejected": true
+  },
+  {
+    "diagnostic": "unavailable chosen action",
+    "mutation": "reset chosen without budget",
+    "rejected": true
+  },
+  {
+    "diagnostic": "upper rank",
+    "mutation": "fake finite root in losing trap",
+    "rejected": true
+  },
+  {
+    "diagnostic": "trap not closed adversarially",
+    "mutation": "winning root marked infinite",
+    "rejected": true
+  },
+  {
+    "diagnostic": "support",
+    "mutation": "support contains duplicate",
+    "rejected": true
+  },
+  {
+    "diagnostic": "support",
+    "mutation": "support contains out-of-range identity",
+    "rejected": true
+  },
+  {
+    "diagnostic": "root index",
+    "mutation": "root index out of range",
+    "rejected": true
+  },
+  {
+    "diagnostic": "action range",
+    "mutation": "chosen action out of range",
+    "rejected": true
+  },
+  {
+    "diagnostic": "incorrect terminal identity",
+    "mutation": "wrong terminal identity",
+    "rejected": true
+  },
+  {
+    "diagnostic": "DAG branch missing",
+    "mutation": "missing observed branch",
+    "rejected": true
+  },
+  {
+    "diagnostic": "strategy missing node or cycle",
+    "mutation": "strategy cycle",
+    "rejected": true
+  },
+  {
+    "diagnostic": "DAG node",
+    "mutation": "duplicate strategy node",
+    "rejected": true
+  },
+  {
+    "diagnostic": "DAG root",
+    "mutation": "strategy root mismatch",
+    "rejected": true
+  },
+  {
+    "diagnostic": "DAG duplicate observation",
+    "mutation": "duplicate strategy observation",
+    "rejected": true
+  },
+  {
+    "diagnostic": "strategy missing node or cycle",
+    "mutation": "strategy target absent",
+    "rejected": true
+  },
+  {
+    "diagnostic": "unreachable DAG node",
+    "mutation": "unreachable strategy node",
+    "rejected": true
+  },
+  {
+    "diagnostic": "distinct hypotheses",
+    "mutation": "pair uses one identity twice",
+    "rejected": true
+  },
+  {
+    "diagnostic": "pair size",
+    "mutation": "pair relation empty",
+    "rejected": true
+  },
+  {
+    "diagnostic": "pair output or closure",
+    "mutation": "pair output equality broken",
+    "rejected": true
+  },
+  {
+    "diagnostic": "duplicate relation",
+    "mutation": "duplicate product pair",
+    "rejected": true
+  },
+  {
+    "diagnostic": "initial/reset pair absent",
+    "mutation": "initial product pair omitted",
+    "rejected": true
+  },
+  {
+    "diagnostic": "pair coordinates",
+    "mutation": "product pair coordinate out of range",
+    "rejected": true
+  },
+  {
+    "diagnostic": "edge bounds",
+    "mutation": "out of range transition",
+    "rejected": true
+  },
+  {
+    "diagnostic": "totality",
+    "mutation": "partial transition row",
+    "rejected": true
+  },
+  {
+    "diagnostic": "edge bounds",
+    "mutation": "undeclared observation",
+    "rejected": true
+  }
+]

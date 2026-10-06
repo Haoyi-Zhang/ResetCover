@@ -1,0 +1,17 @@
+{
+  "entry_binding_guard_cases": 0,
+  "private_pair_m1_negative_control_cases": 0,
+  "retained_byte_comparison": false,
+  "retained_main_packet_bindings_checked": 0,
+  "runtime": {
+    "machine": "x86_64",
+    "os_name": "posix",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python_implementation": "CPython",
+    "python_version": "3.12.14",
+    "release": "6.17.0-1022-azure",
+    "system": "Linux"
+  },
+  "scientific_files_compared": 0,
+  "status": "passed"
+}

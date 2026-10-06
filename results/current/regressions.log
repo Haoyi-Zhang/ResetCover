@@ -1,0 +1,9 @@
+test_all_small_supports_preserve_reset_feasibility (test_serialization.SerializationContract.test_all_small_supports_preserve_reset_feasibility) ... ok
+test_one_non_destructive_cell_is_rejected (test_serialization.SerializationContract.test_one_non_destructive_cell_is_rejected) ... ok
+test_other_one_shot_preconditions_are_explicit (test_serialization.SerializationContract.test_other_one_shot_preconditions_are_explicit) ... ok
+test_reusable_tests_are_rejected (test_serialization.SerializationContract.test_reusable_tests_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.049s
+
+OK

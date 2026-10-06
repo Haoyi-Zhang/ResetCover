@@ -1,0 +1,28 @@
+{
+  "address_space_limit_bytes": 2147483648,
+  "cpu_seconds": 0.785126061,
+  "entry_binding_guards": {
+    "executed": false
+  },
+  "peak_rss_kib": 23644,
+  "private_pair_m1_negative_control": {
+    "executed": false
+  },
+  "producer_games_enumerated_this_run": 2087,
+  "producer_nodes_enumerated_this_run": 18377,
+  "retained_main_packet_bindings_checked": 0,
+  "retained_main_packets_verified_without_reenumeration": false,
+  "runtime": {
+    "machine": "x86_64",
+    "os_name": "posix",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python_implementation": "CPython",
+    "python_version": "3.12.14",
+    "release": "6.17.0-1022-azure",
+    "system": "Linux"
+  },
+  "software_guard_exact_games_outside_retained_summary": 0,
+  "total_output_bytes_before_metrics": 745898,
+  "wall_limit_seconds": 180,
+  "wall_seconds": 0.7861239660000052
+}

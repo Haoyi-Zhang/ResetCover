@@ -1,0 +1,134 @@
+{
+  "address_space_limit_bytes": 2147483648,
+  "cpu_seconds": 0.723768265,
+  "entry_binding_guards": {
+    "baseline_binding": {
+      "catalog_budget": 0,
+      "catalog_support": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "certificate_budget": 0,
+      "certificate_support": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "name": "graph-triangle-budget-0"
+    },
+    "cross_budget_generic_check": {
+      "depth": 3,
+      "obligations": 105,
+      "status": "identified"
+    },
+    "executed": true,
+    "generic_checker_remains_subset_capable": true,
+    "replacement_cases": [
+      {
+        "case": "same-table-full-support-cross-budget",
+        "outcome": "rejected",
+        "reason": "budget binding mismatch; retained main packet graph-triangle-budget-0: expected budget=0 and support=[0, 1, 2, 3, 4]; actual budget=1 and support=[0, 1, 2, 3, 4]",
+        "replacement_budget": 1,
+        "replacement_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "target_budget": 0,
+        "target_name": "graph-triangle-budget-0",
+        "target_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "case": "same-table-same-budget-strict-subset",
+        "outcome": "rejected",
+        "reason": "support binding mismatch; retained main packet graph-triangle-budget-0: expected budget=0 and support=[0, 1, 2, 3, 4]; actual budget=0 and support=[0, 1]",
+        "replacement_budget": 0,
+        "replacement_support": [
+          0,
+          1
+        ],
+        "target_budget": 0,
+        "target_name": "graph-triangle-budget-0",
+        "target_support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "strict_subset_generation": {
+      "depth": 1,
+      "nodes": 4,
+      "status": "identified",
+      "transition_obligations": 11
+    },
+    "strict_subset_generic_check": {
+      "depth": 1,
+      "obligations": 11,
+      "status": "identified"
+    }
+  },
+  "peak_rss_kib": 23904,
+  "private_pair_m1_negative_control": {
+    "cases": [
+      {
+        "budget": 0,
+        "checker_obligations": 2,
+        "nodes": 2,
+        "status": "ambiguous",
+        "transition_obligations": 2
+      },
+      {
+        "budget": 1,
+        "checker_obligations": 6,
+        "nodes": 4,
+        "status": "ambiguous",
+        "transition_obligations": 6
+      },
+      {
+        "budget": null,
+        "checker_obligations": 4,
+        "nodes": 2,
+        "status": "ambiguous",
+        "transition_obligations": 4
+      }
+    ],
+    "executed": true,
+    "family": "private-pairs-1-negative-control",
+    "hypotheses": 2,
+    "outside_retained_2084_game_count": true,
+    "tests": 1
+  },
+  "producer_games_enumerated_this_run": 2039,
+  "producer_nodes_enumerated_this_run": 16086,
+  "retained_main_packet_bindings_checked": 48,
+  "retained_main_packets_verified_without_reenumeration": true,
+  "runtime": {
+    "machine": "x86_64",
+    "os_name": "posix",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python_implementation": "CPython",
+    "python_version": "3.12.14",
+    "release": "6.17.0-1022-azure",
+    "system": "Linux"
+  },
+  "software_guard_exact_games_outside_retained_summary": 4,
+  "total_output_bytes_before_metrics": 745898,
+  "wall_limit_seconds": 180,
+  "wall_seconds": 0.7232755249999983
+}

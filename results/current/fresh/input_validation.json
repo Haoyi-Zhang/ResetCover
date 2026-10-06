@@ -1,0 +1,86 @@
+[
+  {
+    "case": "empty actions",
+    "checker_diagnostic": "action bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to eight ordinary actions required",
+    "producer_rejected": true
+  },
+  {
+    "case": "duplicate action labels",
+    "checker_diagnostic": "action labels",
+    "checker_rejected": true,
+    "producer_diagnostic": "action labels must be distinct short strings",
+    "producer_rejected": true
+  },
+  {
+    "case": "empty observations",
+    "checker_diagnostic": "observation bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to eight distinct integer observations required",
+    "producer_rejected": true
+  },
+  {
+    "case": "boolean observation",
+    "checker_diagnostic": "observation bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to eight distinct integer observations required",
+    "producer_rejected": true
+  },
+  {
+    "case": "duplicate observations",
+    "checker_diagnostic": "observation bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to eight distinct integer observations required",
+    "producer_rejected": true
+  },
+  {
+    "case": "empty machine family",
+    "checker_diagnostic": "hypothesis bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to twenty-four hypotheses required",
+    "producer_rejected": true
+  },
+  {
+    "case": "boolean initial state",
+    "checker_diagnostic": "machine bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "invalid initial state",
+    "producer_rejected": true
+  },
+  {
+    "case": "seventeen states",
+    "checker_diagnostic": "machine bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to sixteen states per machine required",
+    "producer_rejected": true
+  },
+  {
+    "case": "malformed transition edge",
+    "checker_diagnostic": "edge shape",
+    "checker_rejected": true,
+    "producer_diagnostic": "transition is [output,next_state]",
+    "producer_rejected": true
+  },
+  {
+    "case": "noninteger next state",
+    "checker_diagnostic": "edge bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "transition outside the declared model",
+    "producer_rejected": true
+  },
+  {
+    "case": "twenty-five hypotheses",
+    "checker_diagnostic": "hypothesis bounds",
+    "checker_rejected": true,
+    "producer_diagnostic": "one to twenty-four hypotheses required",
+    "producer_rejected": true
+  },
+  {
+    "case": "action label is not text",
+    "checker_diagnostic": "action labels",
+    "checker_rejected": true,
+    "producer_diagnostic": "action labels must be distinct short strings",
+    "producer_rejected": true
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "scientific": {
+    "main": {
+      "instances": 48,
+      "identified": 24,
+      "ambiguous": 24,
+      "nodes": 2291,
+      "obligations": 20818
+    },
+    "unary": {
+      "families": 680,
+      "game_comparisons": 1360,
+      "identified": 310,
+      "ambiguous": 370,
+      "nodes": 5564,
+      "obligations": 16312
+    },
+    "differential": {
+      "families": 12,
+      "support_budget_comparisons": 156,
+      "oracle_positions": 1022,
+      "oracle_transitions": 1503,
+      "solver_nodes": 1022,
+      "solver_obligations": 3405,
+      "mismatches": 0
+    },
+    "graphs": {
+      "graphs": 71,
+      "all_subset_comparisons": 4201,
+      "exact_game_spot_checks": 284,
+      "nodes": 3425,
+      "obligations": 27613
+    },
+    "hypergraphs": {
+      "families": 4,
+      "all_support_comparisons": 252,
+      "exact_game_spot_checks": 12,
+      "maximum_pairs_per_test": 3,
+      "maximum_hypergraph_rank": 3,
+      "nodes": 57,
+      "obligations": 290
+    },
+    "binary": {
+      "families": 4,
+      "zero_reset_support_comparisons": 188,
+      "cross_budget_support_comparisons": 18,
+      "budgets_in_cross_check": [
+        1,
+        2,
+        "unlimited"
+      ],
+      "nodes": 5990,
+      "obligations": 26837
+    },
+    "antichains": {
+      "families": 9,
+      "antichain_comparisons": 36,
+      "independent_tree_supports": 815,
+      "join_products": 56765
+    },
+    "mutations": {
+      "tested": 36,
+      "rejected": 36,
+      "conservative_obligation_charge": 4320
+    },
+    "input_validation": {
+      "malformed_cases": 12,
+      "rejected_by_producer": 12,
+      "rejected_by_checker": 12,
+      "conservative_obligation_charge": 480
+    },
+    "cap_controls": [
+      {
+        "bound": "node",
+        "status": "unknown",
+        "reason": "node",
+        "nodes": 1,
+        "transition_obligations": 1
+      },
+      {
+        "bound": "obligation",
+        "status": "unknown",
+        "reason": "obligation",
+        "nodes": 2,
+        "transition_obligations": 2
+      },
+      {
+        "bound": "depth",
+        "status": "unknown",
+        "reason": "depth",
+        "nodes": 25,
+        "transition_obligations": 105
+      }
+    ],
+    "total_solver_belief_nodes": 18377,
+    "independent_oracle_positions": 1022,
+    "transition_and_certificate_obligations_charged": 100183,
+    "independent_oracle_transitions": 1503,
+    "exact_game_solves": 2084,
+    "failures": 0,
+    "worker_count": 1
+  },
+  "measured": {
+    "wall_seconds": 0.7861239660000052,
+    "cpu_seconds": 0.785126061,
+    "peak_rss_kib": 23644,
+    "address_space_limit_bytes": 2147483648,
+    "wall_limit_seconds": 180,
+    "total_output_bytes_before_metrics": 745898,
+    "producer_nodes_enumerated_this_run": 18377,
+    "producer_games_enumerated_this_run": 2087,
+    "retained_main_packets_verified_without_reenumeration": false,
+    "retained_main_packet_bindings_checked": 0,
+    "entry_binding_guards": {
+      "executed": false
+    },
+    "private_pair_m1_negative_control": {
+      "executed": false
+    },
+    "software_guard_exact_games_outside_retained_summary": 0,
+    "runtime": {
+      "python_implementation": "CPython",
+      "python_version": "3.12.14",
+      "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+      "system": "Linux",
+      "release": "6.17.0-1022-azure",
+      "machine": "x86_64",
+      "os_name": "posix"
+    }
+  }
+}
