@@ -36,6 +36,19 @@ python3 check_certificate.py \
 
 The runner applies a 2 GiB address-space limit, 180-second CPU/wall limits, and explicit node/obligation caps. A cap breach returns `unknown`; it is never converted into an optimal depth or ambiguity certificate.
 
+The serializer has a narrower input contract than the general game solver. It accepts only the canonical one-shot realization: exactly two states, initial state zero, every fresh action entering state one, and every spent action emitting zero and staying in state one. It rejects reusable or other stateful tests rather than discarding their transitions. In particular, reusable thresholds can identify without reset even when their destructive versions cannot.
+
+Run the separate serializer regressions with:
+
+```sh
+python3 -B -m unittest discover -s tests -p 'test_*.py' -v
+python3 -B -O -m unittest discover -s tests -p 'test_*.py' -v
+```
+
+The four tests include seven rejected nonconforming inputs and 88 support/budget feasibility comparisons on two valid families, with checked ranks and strategy replay. They passed locally on Windows with CPython 3.12.14; these counts and measurements are not part of the retained 2,084-game summary or the historical POSIX timing records. The tests do not require POSIX resource/signal support.
+
+The `scientific-checks.yml` workflow is prepared for the standalone artifact repository root on Ubuntu 24.04. It retains the material-integrity gate, runs these tests with and without optimization, regenerates all finite results and byte-compares them with the retained outputs, then exercises retained-packet checking and binding guards. The whole command has a 360-second wall limit, an inherited 2 GiB virtual-memory limit and CPU limits; raw outputs are uploaded even after failure. This workflow description is not evidence that it has run remotely.
+
 ## Trust boundary
 
 `src/solver.py` constructs the reachable belief game and emits rank/trap packets and, when available, a strategy DAG. `src/checker.py` reconstructs transitions from raw input machines; it does not import the solver or its transition builder. Positive replay checks an upper bound. Exact optimality or impossibility additionally requires the all-actions rank/trap conditions. The checker deliberately remains generic and can validate a legal certificate for any nonempty support and allowed budget. Only the retained-main entry in `reproduce.py` adds the catalog-specific requirement that the packet budget match the catalog budget and that its support contain every input hypothesis.

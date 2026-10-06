@@ -28,14 +28,20 @@ def graph_family(vertices, edges, name="graph"):
 
 def binary_encode(f, name=None):
     """Serialize a one-shot partition table. Reset count, not symbol depth, is preserved."""
+    validate(f)
+    for m in f["machines"]:
+        if m["initial"] != 0 or len(m["table"]) != 2:
+            raise ValueError("binary serialization requires fresh state 0 and spent state 1")
+        if any(edge[1] != 1 for edge in m["table"][0]):
+            raise ValueError("every fresh action must enter the spent state")
+        if any(edge != [0, 1] for edge in m["table"][1]):
+            raise ValueError("every spent action must emit zero and stay spent")
     ac=len(f["actions"]); symbols=f["observations"]
     ell=max(1,(ac-1).bit_length()); width=max(1,(len(symbols)-1).bit_length())
     encoding={o:tuple((i>>k)&1 for k in range(width)) for i,o in enumerate(symbols)}
     prefixes=[tuple(bits) for d in range(ell) for bits in product((0,1),repeat=d)]
     machines=[]
     for m in f["machines"]:
-        assert m["initial"]==0 and len(m["table"])==2
-        assert all(edge==[0,1] for edge in m["table"][1])
         codes=[encoding[edge[0]] for edge in m["table"][0]]
         suffixes=sorted({c[k:] for c in codes for k in range(width)},key=lambda x:(len(x),x))
         ids={('select',p):i for i,p in enumerate(prefixes)}

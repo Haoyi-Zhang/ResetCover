@@ -1,0 +1,46 @@
+name: Scientific checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  finite-semantics:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      README_ENTRY: README.md
+      MIN_EXPECTED_PYTHON_SOURCES: '9'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Regressions and full finite reproduction
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p scientific-output
+          timeout --signal=TERM --kill-after=5s 360s bash -euo pipefail -c '
+            ulimit -v 2097152
+            ulimit -t 300
+            python -B .github/scripts/check_repository.py 2>&1 | tee scientific-output/integrity.log
+            python -B -m unittest discover -s tests -p "test_*.py" -v 2>&1 | tee scientific-output/regressions.log
+            python -B -O -m unittest discover -s tests -p "test_*.py" -v 2>&1 | tee scientific-output/regressions-optimized.log
+            python -B reproduce.py --output scientific-output/fresh 2>&1 | tee scientific-output/fresh.log
+            python -B -c "from pathlib import Path; import reproduce; print(reproduce.compare_retained(Path(\"scientific-output/fresh\")))" 2>&1 | tee scientific-output/fresh-comparison.log
+            python -B reproduce.py --output scientific-output/checked --check 2>&1 | tee scientific-output/checked.log
+          ' 2>&1 | tee scientific-output/whole-run.log
+      - name: Upload raw outputs even after failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: finite-semantics-raw-output
+          path: scientific-output/
+          if-no-files-found: warn
