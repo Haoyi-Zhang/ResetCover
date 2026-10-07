@@ -60,13 +60,16 @@ def check_rank(f, c):
         b=row["belief"]; rr=row["budget"]; k=row["rank"]; successors={}
         if k!=0:
             for a in range(ac):
-                obsvalues=sorted({ms[h]["table"][s][a][0] for h,s in enumerate(b) if s>=0})
+                by_output={}
+                for h,s in enumerate(b):
+                    if s>=0:
+                        observation,target=ms[h]["table"][s][a]
+                        if observation not in by_output:
+                            by_output[observation]=[-1]*n
+                        by_output[observation][h]=target
                 dests=[]
-                for o in obsvalues:
-                    v=[]
-                    for h,s in enumerate(b):
-                        v.append(ms[h]["table"][s][a][1] if s>=0 and ms[h]["table"][s][a][0]==o else -1)
-                    key=(tuple(v),rr); require(key in lookup, "ordinary successor omitted")
+                for o in sorted(by_output):
+                    key=(tuple(by_output[o]),rr); require(key in lookup, "ordinary successor omitted")
                     dests.append(lookup[key]); obligations+=1
                 successors[a]=dests
             if rr!=0:

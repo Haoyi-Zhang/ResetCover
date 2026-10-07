@@ -38,7 +38,7 @@ The runner applies a 2 GiB address-space limit, 180-second CPU/wall limits, and 
 
 The serializer has a narrower input contract than the general game solver. It accepts only the canonical one-shot realization: exactly two states, initial state zero, every fresh action entering state one, and every spent action emitting zero and staying in state one. It rejects reusable or other stateful tests rather than discarding their transitions. In particular, reusable thresholds can identify without reset even when their destructive versions cannot.
 
-Run the separate serializer regressions with:
+Run the portable serializer and rank/trap regressions with:
 
 ```sh
 python3 -B -m unittest discover -s tests -p 'test_*.py' -v
@@ -46,6 +46,15 @@ python3 -B -O -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
 The four tests include seven rejected nonconforming inputs and 88 support/budget feasibility comparisons on two valid families, with checked ranks and strategy replay. They passed locally on Windows with CPython 3.12.14; these counts and measurements are not part of the retained 2,084-game summary or the historical POSIX timing records. The tests do not require POSIX resource/signal support.
+
+`tests/test_rank_grouping.py` separately checks ordinary successor reconstruction
+against a literal finite-game reference that scans each declared output, including
+reset layers, absent identities, reordered rows/supports, malformed admission and
+mutable-call isolation. The checker groups surviving coordinates by observation
+within each row/action, then visits observations in sorted order. This changes
+neither branch obligations nor packet admission, rank conditions or diagnostics.
+These software regressions are outside the retained scientific campaign counts.
+Both existing CI discovery commands include them; no timing improvement is claimed.
 
 The `scientific-checks.yml` workflow is prepared for the standalone artifact repository root on Ubuntu 24.04. It retains the material-integrity gate, runs these tests with and without optimization, regenerates all finite results and byte-compares them with the retained outputs, then exercises retained-packet checking and binding guards. The whole command has a 360-second wall limit, an inherited 2 GiB virtual-memory limit and CPU limits; raw outputs are uploaded even after failure. This workflow description is not evidence that it has run remotely.
 
