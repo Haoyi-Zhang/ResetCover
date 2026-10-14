@@ -37,7 +37,7 @@ For every census row, the retained fields record: exact version, sections inspec
 | Hyafil--Rivest and optimal-query work | A successful decision policy minimizing depth or cost | The graph reduction makes the next-budget positive strategy uniformly depth three while the smallest zero-reset negative support is hard |
 | Reif, Berwanger et al., De Wulf et al., symbolic model checking | A winning strategy, losing region, fixed point, or compact belief representation | The belief game supplies semantics; the extra outer problem chooses a smallest losing subfamily |
 | Kanellakis--Smolka, Joyal--Nielsen--Winskel, Bonchi--Pous | A behavioral equivalence or bisimulation/up-to witness | Rooted pair equivalence characterizes unlimited-reset failure only; finite budgets may fail without one global pair witness |
-| Diagnosis, MUS/MCS, monotone dualization | A smallest inconsistent, faulty, or explanatory core | The monotone analogy is useful, but clauses arise from experiment collisions and the selected elements are hypotheses |
+| Diagnosis, MUS/MCS, monotone dualization | A smallest core, correction set, or hitting set, including grouped constraints | Generic monotone duality also covers support selection with an appropriate failure predicate; hypotheses and reset-limited game semantics specialize the object, not the dualization mechanism |
 | Synchronizing automata | A word that drives states to a common state | Reset here is an external identity-preserving operation, not a synchronizing word |
 | Fractal | A system that improves experimental control and reduces noise on real hardware | Only public action-label vocabulary is reused; no trace, processor mechanism, attack, performance, or hardware-fidelity claim enters the model |
 
@@ -46,3 +46,31 @@ For every census row, the retained fields record: exact version, sections inspec
 The review supports a carefully scoped delta, not a universal firstness claim. The manuscript does not assert that no prior paper ever considered a related obstruction subset, that the bibliography is exhaustive, that citation count proves significance, or that a full-paper census substitutes for independent expert review. A closer future result would require revising the positioning, but would not by itself invalidate the stated mathematical implications.
 
 The current journal-specific Guide for Authors could not be retrieved because the first-party page returned a human-verification/403 barrier. Consequently, live page, supplement, source-upload, repository-link, and declaration rules remain an external-use hold. This is separate from the completed scholarly calibration.
+
+## Primary-source comparison for the symbol-cost study
+
+The ICALP 2023 published **Action Codes**, 20 pages, was read through its
+references. It defines contraction/refinement, concretization conditions,
+composition and adaptors, and explicitly discusses adaptive codes. The longer
+arXiv appendices and Coq artifact were not inspected/executed in this study.
+Source: <https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2023.137>.
+The support-wise reset property and cost sandwich are specialized statements,
+not evidence that its framework cannot express or adapt to this construction.
+
+The author-hosted CAMUS paper **Algorithms for Computing Minimal Unsatisfiable
+Subsets of Constraints**, all 42 PDF pages, was read including Theorem 1,
+algorithms, grouped constraints in section 7.2, costs, negatives and references.
+This copy is dated 2007-10-10; it is not the exact 33-page JAR 2008 typesetting.
+Source: <https://sun.iwu.edu/~mliffito/publications/jar_liffiton_CAMUS.pdf>.
+MUS/MCS duality is a direct standard overlap. Let M be the maximal identifiable
+supports. A set J fails iff it meets every H\K for K in M, so its minimal
+failures are the blocker of those complements. A generic game-predicate oracle
+or encoding can therefore cover the outer minimization; collision-rank two
+gives the explicit specialized representation. No CAMUS/MiniSAT runtime,
+universal novelty exclusion, or superior implementation cost is claimed.
+
+Lee--Yannakakis 1994 full text was not obtained in the current comparison.
+The 21-paper retained census and the 67-entry metadata audit are historical
+records, not a fresh certification that every primary source was fully read.
+The cost experiment's ordinary prefix baseline eliminates all observed
+worst-depth differences from the bit game; its negative is retained.

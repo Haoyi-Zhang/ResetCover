@@ -1,0 +1,143 @@
+{
+  "answer": 3,
+  "command": [
+    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-normal\\inputs\\19\\table.txt",
+    "3",
+    "1"
+  ],
+  "config": 19,
+  "events": [
+    {
+      "action": 0,
+      "after": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "before": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 1,
+      "after": {
+        "0": 5,
+        "1": 6,
+        "2": 6,
+        "3": 7,
+        "4": 7
+      },
+      "before": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 0,
+      "after": {
+        "1": 4,
+        "3": 4
+      },
+      "before": {
+        "0": 5,
+        "1": 6,
+        "2": 6,
+        "3": 7,
+        "4": 7
+      },
+      "output": 1,
+      "remaining": 1
+    },
+    {
+      "action": 2,
+      "after": {
+        "1": 0,
+        "3": 0
+      },
+      "before": {
+        "1": 4,
+        "3": 4
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "1": 1,
+        "3": 1
+      },
+      "before": {
+        "1": 0,
+        "3": 0
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "1": 5,
+        "3": 8
+      },
+      "before": {
+        "1": 1,
+        "3": 1
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "3": 5
+      },
+      "before": {
+        "1": 5,
+        "3": 8
+      },
+      "output": 1,
+      "remaining": 0
+    }
+  ],
+  "exit_code": 0,
+  "harness_cpu_seconds": 0.0,
+  "harness_wall_seconds": 0.022243100014748052,
+  "identity": 3,
+  "method": "bit",
+  "process_metrics": {
+    "cpu_ticks": 156250,
+    "peak_working_set_bytes": 15970304,
+    "resets": 1,
+    "steps": 7,
+    "worker_wall_ticks": 46327
+  },
+  "repeat": 0,
+  "startup_wall_seconds": 0.016043900017393753,
+  "stderr": "",
+  "stdout": [
+    "READY clr=4.0.30319.42000 stopwatch_frequency=10000000 high_resolution=True",
+    "OBS 0",
+    "OBS 0",
+    "OBS 1",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 1",
+    "END steps=7 resets=1 cpu_ticks=156250 peak_working_set_bytes=15970304 worker_wall_ticks=46327"
+  ]
+}

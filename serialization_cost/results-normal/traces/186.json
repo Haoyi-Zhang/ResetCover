@@ -1,0 +1,117 @@
+{
+  "answer": 2,
+  "command": [
+    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-normal\\inputs\\14\\table.txt",
+    "2",
+    "2"
+  ],
+  "config": 14,
+  "events": [
+    {
+      "action": 0,
+      "after": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "before": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "output": 0,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 5,
+        "1": 5,
+        "2": 7,
+        "3": 8,
+        "4": 7
+      },
+      "before": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "output": 0,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 4,
+        "1": 4,
+        "2": 5,
+        "4": 6
+      },
+      "before": {
+        "0": 5,
+        "1": 5,
+        "2": 7,
+        "3": 8,
+        "4": 7
+      },
+      "output": 0,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "2": 3
+      },
+      "before": {
+        "0": 4,
+        "1": 4,
+        "2": 5,
+        "4": 6
+      },
+      "output": 1,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "2": 8
+      },
+      "before": {
+        "2": 3
+      },
+      "output": 0,
+      "remaining": 2
+    }
+  ],
+  "exit_code": 0,
+  "harness_cpu_seconds": 0.0,
+  "harness_wall_seconds": 0.022203000000445172,
+  "identity": 2,
+  "method": "whole",
+  "process_metrics": {
+    "cpu_ticks": 312500,
+    "peak_working_set_bytes": 15958016,
+    "resets": 0,
+    "steps": 5,
+    "worker_wall_ticks": 45676
+  },
+  "repeat": 0,
+  "startup_wall_seconds": 0.015979699994204566,
+  "stderr": "",
+  "stdout": [
+    "READY clr=4.0.30319.42000 stopwatch_frequency=10000000 high_resolution=True",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 1",
+    "OBS 0",
+    "END steps=5 resets=0 cpu_ticks=312500 peak_working_set_bytes=15958016 worker_wall_ticks=45676"
+  ]
+}

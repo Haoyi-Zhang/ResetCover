@@ -1,0 +1,118 @@
+{
+  "methodology": "All raw transitions/identities/budgets; same common cohort; descriptive costs only, no significance/generalization/physical-deployment claim.",
+  "normal": {
+    "arms": {
+      "bit": {
+        "events": 932,
+        "harness_cpu_total_seconds": 0.25,
+        "harness_wall_median_seconds": 0.02193059999262914,
+        "harness_wall_total_seconds": 3.872307600249769,
+        "planning_cpu_seconds": 0.0625,
+        "planning_wall_seconds": 0.043585300008999184,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.7848726003139745,
+        "worker_cpu_sample_total_seconds": 4.234375,
+        "worker_peak_working_set_max_bytes": 16052224,
+        "worker_peak_working_set_median_bytes": 15970304.0,
+        "worker_zero_cpu_samples": 7
+      },
+      "prefix": {
+        "events": 916,
+        "harness_cpu_total_seconds": 0.34375,
+        "harness_wall_median_seconds": 0.02201020000211429,
+        "harness_wall_total_seconds": 3.8905461999529507,
+        "planning_cpu_seconds": 0.0,
+        "planning_wall_seconds": 0.0028942998906131834,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.7966616999765392,
+        "worker_cpu_sample_total_seconds": 4.28125,
+        "worker_peak_working_set_max_bytes": 16039936,
+        "worker_peak_working_set_median_bytes": 15970304.0,
+        "worker_zero_cpu_samples": 2
+      },
+      "whole": {
+        "events": 1046,
+        "harness_cpu_total_seconds": 0.234375,
+        "harness_wall_median_seconds": 0.02204469998832792,
+        "harness_wall_total_seconds": 3.896237299690256,
+        "planning_cpu_seconds": 0.015625,
+        "planning_wall_seconds": 0.0021442999714054167,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.800245799764525,
+        "worker_cpu_sample_total_seconds": 4.265625,
+        "worker_peak_working_set_max_bytes": 16326656,
+        "worker_peak_working_set_median_bytes": 15970304.0,
+        "worker_zero_cpu_samples": 5
+      }
+    },
+    "configs": 37,
+    "events": 2894,
+    "exhaustive_prefix_to_bit_strict": 0,
+    "exhaustive_whole_to_prefix_strict": 10,
+    "logical_output_bytes": 2663552,
+    "logical_output_files": 679,
+    "mismatches": 0,
+    "prefix_to_bit_strict": 0,
+    "process_runs": 528,
+    "rank_check_wall_seconds": 0.01387079997221008,
+    "whole_to_prefix_strict": 11
+  },
+  "optimized": {
+    "arms": {
+      "bit": {
+        "events": 932,
+        "harness_cpu_total_seconds": 0.1875,
+        "harness_wall_median_seconds": 0.02178720000665635,
+        "harness_wall_total_seconds": 3.8541541999729816,
+        "planning_cpu_seconds": 0.046875,
+        "planning_wall_seconds": 0.044404099957318977,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.7738444998976775,
+        "worker_cpu_sample_total_seconds": 4.25,
+        "worker_peak_working_set_max_bytes": 16023552,
+        "worker_peak_working_set_median_bytes": 15966208.0,
+        "worker_zero_cpu_samples": 4
+      },
+      "prefix": {
+        "events": 916,
+        "harness_cpu_total_seconds": 0.28125,
+        "harness_wall_median_seconds": 0.021810049991472624,
+        "harness_wall_total_seconds": 3.853377100022044,
+        "planning_cpu_seconds": 0.0,
+        "planning_wall_seconds": 0.002882100030547008,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.7664502999396063,
+        "worker_cpu_sample_total_seconds": 4.21875,
+        "worker_peak_working_set_max_bytes": 16031744,
+        "worker_peak_working_set_median_bytes": 15966208.0,
+        "worker_zero_cpu_samples": 5
+      },
+      "whole": {
+        "events": 1046,
+        "harness_cpu_total_seconds": 0.34375,
+        "harness_wall_median_seconds": 0.02180765000230167,
+        "harness_wall_total_seconds": 3.851827900041826,
+        "planning_cpu_seconds": 0.0,
+        "planning_wall_seconds": 0.0020678999135270715,
+        "process_runs": 176,
+        "startup_wall_total_seconds": 2.7711457999248523,
+        "worker_cpu_sample_total_seconds": 4.15625,
+        "worker_peak_working_set_max_bytes": 16039936,
+        "worker_peak_working_set_median_bytes": 15966208.0,
+        "worker_zero_cpu_samples": 7
+      }
+    },
+    "configs": 37,
+    "events": 2894,
+    "exhaustive_prefix_to_bit_strict": 0,
+    "exhaustive_whole_to_prefix_strict": 10,
+    "logical_output_bytes": 2665120,
+    "logical_output_files": 679,
+    "mismatches": 0,
+    "prefix_to_bit_strict": 0,
+    "process_runs": 528,
+    "rank_check_wall_seconds": 0.014372300007380545,
+    "whole_to_prefix_strict": 11
+  },
+  "semantic_agreement": true
+}

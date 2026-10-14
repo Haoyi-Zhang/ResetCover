@@ -22,6 +22,10 @@ def unary_machines():
 
 def unary_depth(machines):
     """Exact distinguishing-prefix depth for a unary deterministic family."""
+    if not machines:
+        raise ValueError("nonempty unary family required")
+    if len(machines) == 1:
+        return 0
     states = [m["initial"] for m in machines]
     words = [[] for _ in machines]
     # Two-state product pairs either separate within four steps or repeat.

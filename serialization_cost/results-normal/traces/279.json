@@ -1,0 +1,157 @@
+{
+  "answer": 2,
+  "command": [
+    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-normal\\inputs\\19\\table.txt",
+    "2",
+    "1"
+  ],
+  "config": 19,
+  "events": [
+    {
+      "action": 1,
+      "after": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2
+      },
+      "before": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 5,
+        "1": 6,
+        "2": 6,
+        "3": 8,
+        "4": 8
+      },
+      "before": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 4,
+        "2": 4
+      },
+      "before": {
+        "0": 5,
+        "1": 6,
+        "2": 6,
+        "3": 8,
+        "4": 8
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 2,
+      "after": {
+        "0": 0,
+        "2": 0
+      },
+      "before": {
+        "0": 4,
+        "2": 4
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 1,
+        "2": 1
+      },
+      "before": {
+        "0": 0,
+        "2": 0
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 5,
+        "2": 7
+      },
+      "before": {
+        "0": 1,
+        "2": 1
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 4,
+        "2": 5
+      },
+      "before": {
+        "0": 5,
+        "2": 7
+      },
+      "output": 0,
+      "remaining": 0
+    },
+    {
+      "action": 0,
+      "after": {
+        "2": 3
+      },
+      "before": {
+        "0": 4,
+        "2": 5
+      },
+      "output": 1,
+      "remaining": 0
+    }
+  ],
+  "exit_code": 0,
+  "harness_cpu_seconds": 0.0,
+  "harness_wall_seconds": 0.02134669999941252,
+  "identity": 2,
+  "method": "prefix",
+  "process_metrics": {
+    "cpu_ticks": 312500,
+    "peak_working_set_bytes": 15966208,
+    "resets": 1,
+    "steps": 8,
+    "worker_wall_ticks": 44248
+  },
+  "repeat": 1,
+  "startup_wall_seconds": 0.015392700006486848,
+  "stderr": "",
+  "stdout": [
+    "READY clr=4.0.30319.42000 stopwatch_frequency=10000000 high_resolution=True",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "OBS 1",
+    "END steps=8 resets=1 cpu_ticks=312500 peak_working_set_bytes=15966208 worker_wall_ticks=44248"
+  ]
+}

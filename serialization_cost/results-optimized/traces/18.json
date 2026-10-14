@@ -1,0 +1,61 @@
+{
+  "answer": 0,
+  "command": [
+    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-optimized\\inputs\\2\\table.txt",
+    "0",
+    "2"
+  ],
+  "config": 2,
+  "events": [
+    {
+      "action": 0,
+      "after": {
+        "0": 1,
+        "1": 2,
+        "2": 1
+      },
+      "before": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "output": 0,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "0": 2
+      },
+      "before": {
+        "0": 1,
+        "1": 2,
+        "2": 1
+      },
+      "output": 0,
+      "remaining": 2
+    }
+  ],
+  "exit_code": 0,
+  "harness_cpu_seconds": 0.0,
+  "harness_wall_seconds": 0.021566499985055998,
+  "identity": 0,
+  "method": "whole",
+  "process_metrics": {
+    "cpu_ticks": 156250,
+    "peak_working_set_bytes": 15958016,
+    "resets": 0,
+    "steps": 2,
+    "worker_wall_ticks": 43264
+  },
+  "repeat": 0,
+  "startup_wall_seconds": 0.015560100000584498,
+  "stderr": "",
+  "stdout": [
+    "READY clr=4.0.30319.42000 stopwatch_frequency=10000000 high_resolution=True",
+    "OBS 0",
+    "OBS 0",
+    "END steps=2 resets=0 cpu_ticks=156250 peak_working_set_bytes=15958016 worker_wall_ticks=43264"
+  ]
+}

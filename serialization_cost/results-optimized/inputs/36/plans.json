@@ -1,0 +1,3571 @@
+{
+  "bit": {
+    "depth": null,
+    "nodes": 1206,
+    "reason": "depth",
+    "status": "unknown",
+    "transition_obligations": 3379
+  },
+  "prefix": {
+    "branch_obligations": 382,
+    "depth": 19,
+    "mode": "prefix",
+    "resets": 3,
+    "response_bits": 1,
+    "rows": [
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          1,
+          2
+        ],
+        "value": 4
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2
+        ],
+        "value": 4
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          2,
+          3
+        ],
+        "value": 4
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3
+        ],
+        "value": 4
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          3,
+          4
+        ],
+        "value": 4
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4
+        ],
+        "value": 4
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          4,
+          5
+        ],
+        "value": 4
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5
+        ],
+        "value": 4
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          5,
+          6
+        ],
+        "value": 4
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6
+        ],
+        "value": 4
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          6,
+          7
+        ],
+        "value": 4
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          6,
+          7
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 2,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": null
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": 9
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6,
+              7
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6,
+          7
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6,
+              7
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1,
+              2
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": 14
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 19
+          }
+        ],
+        "budget": 3,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 19
+      }
+    ],
+    "selection_bits": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "whole": {
+    "branch_obligations": 382,
+    "depth": 19,
+    "mode": "whole",
+    "resets": 3,
+    "response_bits": 1,
+    "rows": [
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1
+        ],
+        "value": 4
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          1,
+          2
+        ],
+        "value": 4
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2
+        ],
+        "value": 4
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          2,
+          3
+        ],
+        "value": 4
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3
+        ],
+        "value": 4
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          3,
+          4
+        ],
+        "value": 4
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4
+        ],
+        "value": 4
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          4,
+          5
+        ],
+        "value": 4
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5
+        ],
+        "value": 4
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          5,
+          6
+        ],
+        "value": 4
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6
+        ],
+        "value": 4
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          6,
+          7
+        ],
+        "value": 4
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          6,
+          7
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 0,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 1,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": 7,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              7
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              8
+            ],
+            "total_depth": 4
+          }
+        ],
+        "budget": 2,
+        "support": [
+          7,
+          8
+        ],
+        "value": 4
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": null
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": 9
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6,
+              7
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6,
+          7
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              6
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1,
+              2
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2,
+              3
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": 5,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4,
+              5
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              6,
+              7
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 1,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": 6,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              5,
+              6
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              7,
+              8
+            ],
+            "total_depth": 9
+          }
+        ],
+        "budget": 2,
+        "support": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 9
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": null
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              4
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": null
+      },
+      {
+        "action": 1,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 0,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              3,
+              4
+            ],
+            "total_depth": 9
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": null
+      },
+      {
+        "action": 2,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1,
+              2
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": 14
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": null
+      },
+      {
+        "action": null,
+        "branches": [],
+        "budget": 1,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": null
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": 3,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "value": 14
+      },
+      {
+        "action": 4,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "total_depth": 14
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 14
+          }
+        ],
+        "budget": 2,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 14
+      },
+      {
+        "action": 0,
+        "branches": [
+          {
+            "output": 0,
+            "read_bits": 1,
+            "support": [
+              0
+            ],
+            "total_depth": 4
+          },
+          {
+            "output": 1,
+            "read_bits": 1,
+            "support": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "total_depth": 19
+          }
+        ],
+        "budget": 3,
+        "support": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "value": 19
+      }
+    ],
+    "selection_bits": 3,
+    "support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

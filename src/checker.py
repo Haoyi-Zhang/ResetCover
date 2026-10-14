@@ -119,14 +119,17 @@ def replay(f,c,strategy):
     nodes={}
     for row in strategy["nodes"]:
         require(type(row) is dict and type(row.get("node")) is int and row["node"] not in nodes, "DAG node")
+        require(0<=row["node"]<len(c["rows"]), "DAG certificate row index")
         nodes[row["node"]]=row
-    require(strategy.get("root")==c["root"] and strategy["root"] in nodes, "DAG root")
+    require(type(strategy.get("root")) is int and strategy["root"]==c["root"] and strategy["root"] in nodes, "DAG root")
     worst=0; obligations=0; used=set()
     for h in c["support"]:
         s=ms[h]["initial"]; i=strategy["root"]; b=c["resets"]; seen=set(); steps=0
+        belief=tuple(m["initial"] if j in c["support"] else -1 for j,m in enumerate(ms))
         while True:
             require(i in nodes and i not in seen,"strategy missing node or cycle")
             seen.add(i); used.add(i); row=nodes[i]
+            require(tuple(c["rows"][i]["belief"])==belief and c["rows"][i]["budget"]==(-1 if b is None else b), "DAG row/history binding")
             if "hypothesis" in row:
                 require(type(row["hypothesis"]) is int and row["hypothesis"]==h,"incorrect terminal identity"); break
             a=row.get("action")
@@ -135,8 +138,12 @@ def replay(f,c,strategy):
                 require(b is None or b>0,"DAG reset budget")
                 if b is not None: b-=1
                 o=0; s=ms[h]["initial"]
+                belief=tuple(m["initial"] if belief[j]>=0 else -1 for j,m in enumerate(ms))
             else:
                 o,s=ms[h]["table"][s][a]
+                belief=tuple(ms[j]["table"][state][a][1]
+                             if state>=0 and ms[j]["table"][state][a][0]==o else -1
+                             for j,state in enumerate(belief))
             edges=row.get("edges"); require(type(edges) is list,"DAG edges")
             require(all(type(e) is list and len(e)==2 and all(type(z) is int for z in e) for e in edges),"DAG edge shape")
             require(len({e[0] for e in edges})==len(edges),"DAG duplicate observation")

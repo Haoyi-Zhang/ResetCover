@@ -130,7 +130,7 @@
     "rejected": true
   },
   {
-    "diagnostic": "unreachable DAG node",
+    "diagnostic": "DAG certificate row index",
     "mutation": "unreachable strategy node",
     "rejected": true
   },

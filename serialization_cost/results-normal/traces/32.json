@@ -1,0 +1,103 @@
+{
+  "answer": 1,
+  "command": [
+    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-normal\\inputs\\2\\table.txt",
+    "1",
+    "2"
+  ],
+  "config": 2,
+  "events": [
+    {
+      "action": 0,
+      "after": {
+        "0": 1,
+        "1": 2,
+        "2": 1
+      },
+      "before": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "output": 0,
+      "remaining": 2
+    },
+    {
+      "action": 0,
+      "after": {
+        "1": 3,
+        "2": 2
+      },
+      "before": {
+        "0": 1,
+        "1": 2,
+        "2": 1
+      },
+      "output": 1,
+      "remaining": 2
+    },
+    {
+      "action": 2,
+      "after": {
+        "1": 0,
+        "2": 0
+      },
+      "before": {
+        "1": 3,
+        "2": 2
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 1,
+      "after": {
+        "1": 1,
+        "2": 1
+      },
+      "before": {
+        "1": 0,
+        "2": 0
+      },
+      "output": 0,
+      "remaining": 1
+    },
+    {
+      "action": 0,
+      "after": {
+        "1": 3
+      },
+      "before": {
+        "1": 1,
+        "2": 1
+      },
+      "output": 0,
+      "remaining": 1
+    }
+  ],
+  "exit_code": 0,
+  "harness_cpu_seconds": 0.0,
+  "harness_wall_seconds": 0.02156940000713803,
+  "identity": 1,
+  "method": "whole",
+  "process_metrics": {
+    "cpu_ticks": 312500,
+    "peak_working_set_bytes": 15978496,
+    "resets": 1,
+    "steps": 5,
+    "worker_wall_ticks": 44423
+  },
+  "repeat": 1,
+  "startup_wall_seconds": 0.015527000010479242,
+  "stderr": "",
+  "stdout": [
+    "READY clr=4.0.30319.42000 stopwatch_frequency=10000000 high_resolution=True",
+    "OBS 0",
+    "OBS 1",
+    "OBS 0",
+    "OBS 0",
+    "OBS 0",
+    "END steps=5 resets=1 cpu_ticks=312500 peak_working_set_bytes=15978496 worker_wall_ticks=44423"
+  ]
+}

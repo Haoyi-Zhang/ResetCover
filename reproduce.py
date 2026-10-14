@@ -17,7 +17,10 @@ import platform
 from copy import deepcopy
 from itertools import combinations
 from pathlib import Path
-import resource
+try:
+    import resource
+except ModuleNotFoundError:
+    resource = None
 import signal
 import sys
 import time
@@ -107,7 +110,7 @@ def dump(path, obj):
     if len(data.encode()) > 32 * 1024 * 1024:
         raise RuntimeError("bounded JSON output exceeded")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(data, encoding="utf-8")
+    path.write_text(data, encoding="utf-8", newline="\n")
 
 
 def scientific_files(directory):
@@ -288,7 +291,11 @@ def run_private_pair_one_negative_control():
     return record
 
 
-def run(out, *, verify_retained_main=False):
+def run(out, *, verify_retained_main=False, resource_metrics=None):
+    # CLI defaults remain POSIX bounded. An owned portable process must supply
+    # an explicit truthful measurement/limit profile; do not invent RLIMITs.
+    if resource is None and resource_metrics is None:
+        raise RuntimeError("non-POSIX run requires explicit resource metrics")
     started = time.monotonic()
     cpu = time.process_time()
     meter = Meter()
@@ -779,9 +786,6 @@ def run(out, *, verify_retained_main=False):
     metrics = {
         "wall_seconds": time.monotonic() - started,
         "cpu_seconds": time.process_time() - cpu,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
-        "address_space_limit_bytes": 2 * 1024**3,
-        "wall_limit_seconds": 180,
         "total_output_bytes_before_metrics": sum(
             path.stat().st_size for path in out.rglob("*") if path.is_file()
         ),
@@ -804,6 +808,12 @@ def run(out, *, verify_retained_main=False):
             "os_name": os.name,
         },
     }
+    metrics.update(resource_metrics() if resource_metrics is not None else {
+        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "address_space_limit_bytes": 2 * 1024**3,
+        "wall_limit_seconds": 180,
+        "limit_profile": "POSIX CLI RLIMIT_AS/RLIMIT_CPU/SIGALRM; Linux ru_maxrss units",
+    })
     dump(out / "resources.json", metrics)
     return semantic, metrics
 
@@ -833,7 +843,7 @@ def main():
     out = Path(args.output).resolve()
     if out.exists():
         parser.error("output directory already exists; choose a new directory")
-    if not hasattr(signal, "SIGALRM"):
+    if resource is None or not hasattr(signal, "SIGALRM"):
         parser.error("this bounded runner requires POSIX signal/resource support")
     resource.setrlimit(resource.RLIMIT_AS, (2 * 1024**3, 2 * 1024**3))
     resource.setrlimit(resource.RLIMIT_CPU, (180, 180))

@@ -1,0 +1,158 @@
+{
+  "actions": [
+    "bit:0",
+    "bit:1"
+  ],
+  "machines": [
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "initial": 0,
+      "table": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "abort_input": 1,
+    "invalid_selection": "all-zero spent state",
+    "kind": "binary_serialization",
+    "read_input": 0,
+    "response_bits": 1,
+    "response_order": "least-significant first",
+    "selection_bits": 1,
+    "source_family": "duplicate-control"
+  },
+  "name": "duplicate-control-binary",
+  "observations": [
+    0,
+    1
+  ]
+}

@@ -97,3 +97,22 @@ The 16 public-vocabulary fixtures are four authored semantic archetypes under fo
 The implementation, authored inputs, proofs, and documentation in this standalone repository are released under the MIT license in `LICENSE`. Cited papers, publisher assets, and third-party text are not included or relicensed.
 
 Automated assistance contributed to formulation, proof drafting, implementation, manuscript preparation, and TikZ sources. Finite results were obtained by running the retained programs, not by predicting outcomes. No human author approval, independent external review, submission, acceptance, or guaranteed novelty is asserted. External use requires substantive human review and truthful compliance with the live venue and publisher rules.
+
+## Symbol costs and owned process
+
+`serialization_cost/README.md` documents a separate equal-information comparison
+of complete-result, ordinary prefix, and checked bit-game controllers, with a
+complete compiled managed Windows interpreter, full raw receipts and verifier.
+The cost proof is in `proofs/serialization-cost.md`. The ordinary prefix baseline
+accounts for every observed worst-depth improvement over complete decoding;
+no bit-over-prefix benefit is observed. No prior native software or device is
+executed. These data do not enlarge the historical 2,084-game counters.
+
+Replay additionally checks exact-integer roots and game-row/history binding;
+`tests/test_replay_binding.py` preserves both rejecting counterexamples and
+consistent-row-reordering controls. The singleton unary oracle now returns
+zero. A fresh Windows module reproduction explicitly recomputed the scientific
+outputs: only one retained mutation rejection diagnostic changes to the earlier
+row-index check. All rejection outcomes, historical scientific numbers and
+other 58 files remain unchanged; the original historical diagnostic is not a
+claim about the new guard order.

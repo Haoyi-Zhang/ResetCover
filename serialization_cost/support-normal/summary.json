@@ -1,0 +1,29 @@
+{
+  "cases": 75,
+  "method_invocations": 22500,
+  "mismatches": 0,
+  "optimized": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "repetitions": 100,
+  "scope": "71 complete labeled nonempty graphs on 2-4 vertices, 3 private-pair controls and one injective control. Owned exhaustive baselines, not native CAMUS, general adaptive-game or scalability evaluation.",
+  "totals": {
+    "cover": {
+      "cpu_seconds": 0.28125,
+      "single_pass_predicate_calls": 75,
+      "single_pass_selection_tests": 398,
+      "wall_seconds": 0.28268479896360077
+    },
+    "direct": {
+      "cpu_seconds": 0.3125,
+      "single_pass_predicate_calls": 2696,
+      "single_pass_selection_tests": 2621,
+      "wall_seconds": 0.26386929873842746
+    },
+    "mss_dual": {
+      "cpu_seconds": 1.25,
+      "single_pass_predicate_calls": 4463,
+      "single_pass_selection_tests": 2621,
+      "wall_seconds": 1.304830499808304
+    }
+  }
+}
