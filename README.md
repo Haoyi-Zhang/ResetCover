@@ -100,6 +100,5 @@ unknown.
 
 Original code, authored inputs, proofs, and documentation use [LICENSE](LICENSE).
 Third-party papers and publisher assets are cited rather than redistributed.
-Automated assistance contributed to formulation, proof drafting, implementation,
-manuscript preparation, and figure sources. Finite results come from executed
-programs. Human approval and external review are separate from these checks.
+Finite results come from executed programs. Human approval and external review
+are separate from these checks.
