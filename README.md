@@ -1,118 +1,105 @@
-# Identifiability certificates for finite experiment systems
+# ResetCover: finite experiment systems
 
-This standalone repository contains the bounded reference semantics and reproducible finite evidence for **Ambiguity Supports for Reset-Limited Experiments: A Vertex-Cover Boundary**. It does not require the manuscript directory or network access.
+This artifact supplies bounded experiment semantics, reset-limited belief-game
+solving, rank/trap certificate checking, strategy replay, and finite reference
+oracles for *Ambiguity Supports for Reset-Limited Experiments: A Vertex-Cover
+Boundary*. It runs independently of the manuscript directory.
 
-## Runtime requirements
+## Requirements
 
-The documented bounded runner targets **POSIX/Linux with CPython 3.10 or newer**. It uses only the Python standard library, but it requires `resource.RLIMIT_AS`, `resource.RLIMIT_CPU`, `signal.SIGALRM`, and `signal.setitimer`; the documented command is therefore not claimed to work on Windows or on non-POSIX Python implementations that omit those facilities. One fresh finite validation records the actual Python implementation/version and platform in `results/runtime_reproduction.json`. The older retained-generation timing file did not capture its OS or Python version, so those original environment fields are reported as unknown rather than inferred.
+Full reproduction and `check_certificate.py` require POSIX/Linux with CPython
+3.10 or later, `resource.RLIMIT_AS`, `resource.RLIMIT_CPU`, and signal timers.
+Only the standard library is needed. Portable unit tests also run on Windows.
 
-## Reproduce
+## Portable tests
 
-From the repository root, a fresh generation is:
-
-```sh
-python3 reproduce.py --output reproduced
-```
-
-This path re-enumerates the 48 main belief games and all auxiliary finite oracles. Its retained scientific summary contains 2,084 exact-game solves.
-
-For retained-output verification, run:
-
-```sh
-python3 reproduce.py --output reproduced-check --check
-```
-
-The output directory must not already exist. In `--check` mode the runner **does not re-enumerate the 48 retained main position graphs**. It first binds each retained packet to the catalog budget and the full input support, validates the packet with the separate checker, reruns the auxiliary tiny/oracle/construction/mutation/input/cap checks, and compares every deterministic scientific JSON/CSV output and all 48 packet files byte-for-byte against `results/`. `resources.json` separately reports the games actually enumerated by that invocation and the retained semantic count; timing, memory, platform, and run-status records are intentionally excluded from byte comparison.
-
-A pre-change read-only audit found that all existing 48 packets already matched their catalog budgets and full supports; the defect was a latent entry-contract risk, not evidence that a retained scientific result was wrong. The current `--check` invocation now runs two explicit replacement guards. A complete valid certificate for the same transition table but the wrong budget, and a complete valid strict-subset certificate for the target budget, are each accepted by the generic checker and then rejected by the retained-main binding wrapper. The diagnostic echoes the target and replacement budgets and supports. A separate `m=1` private-pair negative control checks budgets 0, 1, and unlimited. The one strict-subset construction plus these three negative-control games are software guards outside the retained 2,084-game scientific count.
-
-Check one retained certificate directly:
-
-```sh
-python3 check_certificate.py \
-  inputs/graph-triangle-budget-1.json \
-  results/certificates/graph-triangle-budget-1.json
-```
-
-The runner applies a 2 GiB address-space limit, 180-second CPU/wall limits, and explicit node/obligation caps. A cap breach returns `unknown`; it is never converted into an optimal depth or ambiguity certificate.
-
-The serializer has a narrower input contract than the general game solver. It accepts only the canonical one-shot realization: exactly two states, initial state zero, every fresh action entering state one, and every spent action emitting zero and staying in state one. It rejects reusable or other stateful tests rather than discarding their transitions. In particular, reusable thresholds can identify without reset even when their destructive versions cannot.
-
-Run the portable serializer and rank/trap regressions with:
+From the artifact root:
 
 ```sh
 python3 -B -m unittest discover -s tests -p 'test_*.py' -v
 python3 -B -O -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-The four tests include seven rejected nonconforming inputs and 88 support/budget feasibility comparisons on two valid families, with checked ranks and strategy replay. They passed locally on Windows with CPython 3.12.14; these counts and measurements are not part of the retained 2,084-game summary or the historical POSIX timing records. The tests do not require POSIX resource/signal support.
+These cover serializer admission, literal finite-game rank/trap comparisons,
+row/history binding, and the separate serialization-cost consumer. They are
+software regressions, separate from retained campaign denominators.
 
-`tests/test_rank_grouping.py` separately checks ordinary successor reconstruction
-against a literal finite-game reference that scans each declared output, including
-reset layers, absent identities, reordered rows/supports, malformed admission and
-mutable-call isolation. The checker groups surviving coordinates by observation
-within each row/action, then visits observations in sorted order. This changes
-neither branch obligations nor packet admission, rank conditions or diagnostics.
-These software regressions are outside the retained scientific campaign counts.
-Both existing CI discovery commands include them; no timing improvement is claimed.
+## Reproduction and direct replay
 
-The `scientific-checks.yml` workflow is prepared for the standalone artifact repository root on Ubuntu 24.04. It retains the material-integrity gate, runs these tests with and without optimization, regenerates all finite results and byte-compares them with the retained outputs, then exercises retained-packet checking and binding guards. The whole command has a 360-second wall limit, an inherited 2 GiB virtual-memory limit and CPU limits; raw outputs are uploaded even after failure. This workflow description is not evidence that it has run remotely.
+Choose an output directory that does not already exist:
 
-## Trust boundary
+```sh
+python3 reproduce.py --output reproduced
+python3 reproduce.py --output reproduced-check --check
+```
 
-`src/solver.py` constructs the reachable belief game and emits rank/trap packets and, when available, a strategy DAG. `src/checker.py` reconstructs transitions from raw input machines; it does not import the solver or its transition builder. Positive replay checks an upper bound. Exact optimality or impossibility additionally requires the all-actions rank/trap conditions. The checker deliberately remains generic and can validate a legal certificate for any nonempty support and allowed budget. Only the retained-main entry in `reproduce.py` adds the catalog-specific requirement that the packet budget match the catalog budget and that its support contain every input hypothesis.
+Fresh generation re-enumerates the 48 main belief games and auxiliary finite
+oracles. Retained-output checking binds each existing packet to its catalog
+budget and full support, replays it, reruns auxiliary checks, and compares
+deterministic scientific JSON/CSV and packet files with `results/`.
+The checking route reuses, rather than re-enumerates, the main position graphs.
+`resources.json` distinguishes actual enumeration from the retained semantic
+count of 2,084 exact-game solves; runtime and host fields are not byte-compared.
 
-`tests/oracles.py` supplies four structurally separate finite baselines: direct unary output-prefix/product reasoning; an explicit-position Bellman recursion for fixed-seed stateful families; exhaustive graph/hypergraph support predicates; and strict-subset one-shot decision-tree recursion. `tests/mutations.py` corrupts certificate rules, strategies, pair witnesses, and raw models and requires rejection. Producer and checker also reject a fixed malformed-input suite. These programs were developed in one research process; software separation is not independent human or blind review.
+Check one retained packet directly on POSIX:
 
-## Mathematical scope
+```sh
+python3 check_certificate.py inputs/graph-triangle-budget-1.json results/certificates/graph-triangle-budget-1.json
+```
 
-`proofs/theorems.md` gives the complete model and arguments independently of the article. The central results are:
+The runner enforces 2 GiB address space, 180-second CPU/wall limits, and explicit
+node/obligation caps. Cap exhaustion yields unknown rather than a depth or
+ambiguity result. The generic checker accepts any admissible support/budget;
+the retained-main wrapper additionally requires the exact catalog budget and
+full input support. Its replacement guards exercise both distinctions.
 
-- one collision pair per test yields a unique forced ambiguity support;
-- at most two pairs yields a forced set plus exact vertex covers;
-- at most `p` pairs yields a rank-`p` hypergraph-transversal instance and an `O(p^k 2^p |A| poly(|H|+|A|))` bounded-search algorithm for the explicit zero-reset class;
-- every finite simple graph with at least one edge has a two-state realization whose minimum zero-reset support is vertex cover while one reset identifies the full family in depth three;
-- for the private-pair family, one reset identifies the full family only when `m>=2`; the `m=1` pair remains ambiguous for every finite budget and with unlimited reset;
-- binary serialization preserves every support's reset feasibility for finite and unlimited budgets, not action depth; and
-- for each finite `r` the sharp one-shot support bound is `q^(r+1)+1`, while no bound depending only on that finite `r` survives for general binary stateful epochs. With unlimited reset, ambiguity contains an equivalent rooted pair and hence a size-two support.
+The scientific CI runs unit tests in normal/optimized modes, finite generation,
+retained-output checking and binding guards on Ubuntu; it uploads raw logs after
+failure as well as success. Consult the current Actions runs for execution status.
 
-These are mathematical proofs, not proof-assistant formalization. Finite results validate bounded instances and certificate semantics rather than universal quantifiers.
+## Model and checking boundary
 
-## Evidence inventory
+`src/solver.py` constructs belief games and emits rank/trap packets and strategy
+DAGs. `src/checker.py` reconstructs raw transitions without importing the solver
+or its transition builder. Strategy replay gives an upper bound; exact depth
+or impossibility additionally requires all-action rank/trap obligations.
+`tests/oracles.py` implements four finite baselines, and `tests/mutations.py`
+checks rejection of corrupted models and evidence.
+
+Binary serialization accepts the canonical one-shot two-state realization:
+initial state zero, fresh actions enter state one, and spent actions emit zero
+and remain there. It preserves support/reset feasibility, not action depth;
+general reusable or stateful experiments require the general game model.
+
+The written proofs are mathematical arguments rather than proof-assistant
+formalizations. Producer/checker source separation is not independent human
+review. Public-vocabulary fixtures are relabeled authored archetypes, not device
+traces or held-out deployment data.
+
+## Material map
 
 - `inputs/`: the 48 retained families and catalog.
-- `results/certificates/`: one checked rank/trap packet per main family, plus successful strategy and rooted-pair witness where applicable.
-- `results/*.json` and `main_results.csv`: raw scientific counters, oracle results, mutation/input controls, resource measurements, clean-reproduction and runtime/platform records, plus the frozen scientific-campaign accounting with its explicit cutoff.
-- `claim_evidence_ledger.csv`: material claim to proof/check/result/display mapping.
-- `reference_audit.csv`: all 67 manuscript references, thematic category, cited status, metadata basis, reading scope, verification state, and redistribution boundary.
-- `literature_census.csv`: the 12 same-venue, 5 influential, and 6 adjacent-venue full-paper calibration, including exact-version notes and comparison fields.
-- `external_resources.csv`: scholarly and official resources actually accessed; no third-party article text is included.
-- `proofs/certificate-format.md`: packet encoding and checker obligations.
-- `proofs/literature-boundary.md`: object-level closest-work comparison, completed census boundary, and external-use caveats.
+- `results/certificates/`: packets, strategies, and rooted-pair witnesses.
+- `results/`: scientific tables, auxiliary controls and actual run/resource records.
+- [proofs/theorems.md](proofs/theorems.md): model and support/reset results.
+- [proofs/certificate-format.md](proofs/certificate-format.md): encoding and obligations.
+- [serialization_cost/README.md](serialization_cost/README.md): equal-information
+  complete-result, prefix, and bit-game cost comparison, interpreter and verifier.
+- `claim_evidence_ledger.csv`: claim/proof/check/output mapping.
+- `reference_audit.csv`, `literature_census.csv`, `external_resources.csv`,
+  and [proofs/literature-boundary.md](proofs/literature-boundary.md): source and
+  comparison records with their stated reading scope.
 
-The 16 public-vocabulary fixtures are four authored semantic archetypes under four relabelings. They contain no device trace and establish no hardware mechanism. Inputs were visible during development; there is no held-out statistical-generalization claim.
+The serialization study attributes its observed depth improvement to ordinary
+prefix handling; it records no additional bit-over-prefix benefit. Its counts
+are separate from the historical 2,084-game summary. Runtime reproduction files
+record the actual current host; missing historical environment fields remain
+unknown.
 
 ## License and provenance
 
-The implementation, authored inputs, proofs, and documentation in this standalone repository are released under the MIT license in `LICENSE`. Cited papers, publisher assets, and third-party text are not included or relicensed.
-
-Automated assistance contributed to formulation, proof drafting, implementation, manuscript preparation, and TikZ sources. Finite results were obtained by running the retained programs, not by predicting outcomes. No human author approval, independent external review, submission, acceptance, or guaranteed novelty is asserted. External use requires substantive human review and truthful compliance with the live venue and publisher rules.
-
-## Symbol costs and owned process
-
-`serialization_cost/README.md` documents a separate equal-information comparison
-of complete-result, ordinary prefix, and checked bit-game controllers, with a
-complete compiled managed Windows interpreter, full raw receipts and verifier.
-The cost proof is in `proofs/serialization-cost.md`. The ordinary prefix baseline
-accounts for every observed worst-depth improvement over complete decoding;
-no bit-over-prefix benefit is observed. No prior native software or device is
-executed. These data do not enlarge the historical 2,084-game counters.
-
-Replay additionally checks exact-integer roots and game-row/history binding;
-`tests/test_replay_binding.py` preserves both rejecting counterexamples and
-consistent-row-reordering controls. The singleton unary oracle now returns
-zero. A fresh Windows module reproduction explicitly recomputed the scientific
-outputs: only one retained mutation rejection diagnostic changes to the earlier
-row-index check. All rejection outcomes, historical scientific numbers and
-other 58 files remain unchanged; the original historical diagnostic is not a
-claim about the new guard order.
+Original code, authored inputs, proofs, and documentation use [LICENSE](LICENSE).
+Third-party papers and publisher assets are cited rather than redistributed.
+Automated assistance contributed to formulation, proof drafting, implementation,
+manuscript preparation, and figure sources. Finite results come from executed
+programs. Human approval and external review are separate from these checks.
