@@ -78,6 +78,9 @@ traces or held-out deployment data.
 
 ## Material map
 
+- `figures/draw_schematics.py`: Python-direct cover and serialization vector
+  diagrams; run with `--outdir PATH`. Requires Matplotlib, embeds STIX fonts,
+  checks label bounds and does not execute an experiment or call TeX.
 - `inputs/`: the 48 retained families and catalog.
 - `results/certificates/`: packets, strategies, and rooted-pair witnesses.
 - `results/`: scientific tables, auxiliary controls and actual run/resource records.
