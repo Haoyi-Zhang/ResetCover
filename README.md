@@ -105,3 +105,7 @@ Original code, authored inputs, proofs, and documentation use [LICENSE](LICENSE)
 Third-party papers and publisher assets are cited rather than redistributed.
 Finite results come from executed programs. Human approval and external review
 are separate from these checks.
+
+## Portable path notation
+
+Published execution records use `<PYTHON_ROOT>`, `<NODE_ROOT>`, `<RUNTIME_ROOT>` and `<PROJECTS_ROOT>` for machine-local installation and workspace prefixes. These are path aliases, not literal directories; substitute the corresponding local roots when replaying a command. Recorded interpreter and dependency versions, inputs, measurements and outcomes are unchanged. File inventories bind the published portable serializations; any `recorded_` identity denotes the pre-normalization bytes.

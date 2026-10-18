@@ -13,11 +13,11 @@
       "resolution": 1e-07
     }
   },
-  "compiler_executable": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+  "compiler_executable": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
   "configs": 37,
   "events": 2894,
   "exe_sha256": "b08dec729c12f41db11d7083a0025b02c442fc280791f9a92b4395b588242553",
-  "executable": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\pdf-env\\Scripts\\python.exe",
+  "executable": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\pdf-env\\Scripts\\python.exe",
   "exhaustive_cases": 258,
   "exhaustive_statuses": {
     "ambiguous": 186,

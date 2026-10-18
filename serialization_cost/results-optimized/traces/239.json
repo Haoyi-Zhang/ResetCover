@@ -1,8 +1,8 @@
 {
   "answer": 1,
   "command": [
-    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
-    "D:\\CodexProjects\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-optimized\\inputs\\17\\table.txt",
+    "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P044\\compiled\\OwnedMachine.exe",
+    "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P044\\artifact\\serialization_cost\\results-optimized\\inputs\\17\\table.txt",
     "1",
     "2"
   ],
