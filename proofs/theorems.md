@@ -131,7 +131,7 @@ There are fewer than 2^ell selector states, at most mc response states before su
 
 Combining this preservation with the reduction gives NP-hardness of minimum ambiguity-support selection for general finite binary machines. It does not give NP membership for those general machines; verifying their loss can require a large belief game.
 
-## 8. Sharp finite-budget support arity (article Theorem 6.2 / Corollary 6.3)
+## 8. Sharp finite-budget support arity (article Theorem 6.3 / Corollary 6.4)
 
 Fix a finite reset budget r in N_0. For one-shot tests with at most q>=2 outcomes, put t=r+1. Every identifying t-query tree has at most q^t leaves. Any support of size q^t+1 therefore loses; a larger support contains such a proper losing subset and cannot be inclusion-minimal. Thus every inclusion-minimal ambiguity support has size at most q^(r+1)+1.
 
